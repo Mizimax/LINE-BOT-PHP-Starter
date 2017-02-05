@@ -18,12 +18,3 @@
     RewriteCond %{HTTP:Authorization} .
     RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
 </IfModule>
-<VirtualHost *:80>
-    ServerName www.example.com
-    Redirect / https://www.example.com/
-</VirtualHost>
-
-<VirtualHost *:443>
-    ServerName www.example.com
-    # ... SSL configuration goes here
-</VirtualHost>
