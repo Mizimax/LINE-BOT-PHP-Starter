@@ -1,0 +1,145 @@
+  body {
+    font-family: 'Open Sans Condensed', sans-serif;
+  }
+  @media only screen and (max-width: 768px){
+    body,html{
+      overflow: visible !important;
+      max-width: 100%;
+      overflow-x: hidden !important;
+    }
+  }
+  .section{
+    height: 100vh;
+    position: relative;
+  }
+  #home{
+    background:linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ), url('../img/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    border: 20px solid;
+  }
+  #comcamp{background-color: #ccc;}
+  #learning{background-color: #000;}
+  #schedule{background-color: #fff;}
+  #contact{background-color: #ccc;}
+  .submit{
+    -moz-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+    box-shadow: inset 0px 1px 0px 0px #45D6D6;
+    background-color: #2CBBBB;
+    border: 1px solid #27A0A0;
+    display: inline-block;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 14px;
+    padding: 8px 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  .footer{
+    width: 100%;
+    height: 50px;
+    position: absolute; 
+   bottom: 0;
+    z-index: 99;
+    background-color: #282828;
+  }
+  .wow { visibility: hidden; }
+   .parallaxx{
+    background: url(http://www.downloadclipart.net/large/5852-isometric-house-design.png) 50% no-repeat;
+    background-clip: content-box;
+    position: absolute;
+    z-index: 1;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    padding: 3px;
+    width: 200px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -100px;
+  }
+  ::-webkit-scrollbar-track
+  {
+   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+   background-color: #F5F5F5;
+  }
+  ::-webkit-scrollbar
+  {
+   width: 6px;
+   background-color: #F5F5F5;
+  }
+  ::-webkit-scrollbar-thumb
+  {
+   background-color: #000000;
+   border-radius: 10px;
+  }
+  .menu{
+    position:fixed;
+    bottom: 3%;
+    width: 100%;
+    text-align: center;
+  }
+  .menu a{
+    margin: 20px;
+  }
+  .animate
+{
+  transition: all 0.15s;
+  -webkit-transition: all 0.15s;
+}
+
+.action-button
+{
+  position: relative;
+  padding: 10px 30px;
+  margin: 0px 10px 10px 0px;
+  display: inline-block;
+  border-radius: 10px;
+  font-family: cursive;
+  font-size: 16px;
+  color: #FFF;
+  text-decoration: none;  
+}
+
+.blue
+{
+  background-color: #3498DB;
+  border-bottom: 5px solid #2980B9;
+  text-shadow: 0px -2px #2980B9;
+}
+
+.red
+{
+  background-color: #E74C3C;
+  border-bottom: 5px solid #BD3E31;
+  text-shadow: 0px -2px #BD3E31;
+}
+
+.green
+{
+  background-color: #82BF56;
+  border-bottom: 5px solid #669644;
+  text-shadow: 0px -2px #669644;
+}
+
+.yellow
+{
+  background-color: #F2CF66;
+  border-bottom: 5px solid #D1B358;
+  text-shadow: 0px -2px #D1B358;
+}
+.action-button:hover
+{
+  transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+  border-bottom: 1px solid;
+  color:#fff;
+  text-decoration: none;
+}
