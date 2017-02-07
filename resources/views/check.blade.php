@@ -1,5 +1,5 @@
 <?php
-if(empty($_SERVER['HTTPS'])){
-	echo "not https";
+if (Request::server('HTTP_X_FORWARDED_PROTO') == 'https'){
+	echo "https";
 }
 ?>
