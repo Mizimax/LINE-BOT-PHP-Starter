@@ -17,3 +17,6 @@ Route::get('/', function () {
 
 Route::get('/profile/{id}', 'ProfileController@getProfile');
 Route::get('/profiles', 'ProfileController@getAllProfile');
+Route::get('/check', function(){
+	return view('check');
+});
