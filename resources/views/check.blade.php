@@ -1,5 +1,5 @@
 <?php
-if(!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off'){
+if( isset($_SERVER['HTTPS'] ) ) {
        echo "https";
 }
 ?>
