@@ -1,3 +1,5 @@
 <?php
-echo  $_SERVER['HTTPS'];
+if(empty($_SERVER['HTTPS'])){
+	echo "not https";
+}
 ?>
