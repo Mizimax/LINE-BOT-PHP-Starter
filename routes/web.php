@@ -10,7 +10,6 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-\URL::forceSchema('https');
 Route::get('/', function () {
     return view('welcome');
 });
