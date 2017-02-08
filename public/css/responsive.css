@@ -1,0 +1,16 @@
+@media only screen and (max-width: 768px){
+    body,html{
+      overflow: visible !important;
+      max-width: 100%;
+      overflow-x: hidden !important;
+    }
+  }
+@media only screen and (max-width: 930px){
+   	#menu .main li{
+   		display: none;
+   	}.mmenu{
+   		display: inline-block;
+   	}.action-button{
+   		margin: 10px !important;
+   	}
+}
