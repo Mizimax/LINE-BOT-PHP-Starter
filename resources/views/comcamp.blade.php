@@ -59,15 +59,17 @@
     </div><br>
         <iframe id="vid" class="wow bounceInLeft animate" style="margin-top: 30px"  data-wow-delay="0.6s" data-wow-duration="0.7s" width="80%" height="315" src="https://www.youtube.com/embed/BcHm8s0beHk?controls=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
         </div>
-         <div data-wow-delay="0.8s" data-wow-duration="0.7s" class="col-md-6 wow flipInX bg" align="center" style="background: url('./img/1.png') 50% no-repeat;background-size: 680px 680px;height: 680px;margin-top: -50px">   
+         <div data-wow-delay="0.8s" data-wow-duration="0.7s" class="col-md-6 wow flipInX bg" align="center" style="background: url('./img/1.png') 50% no-repeat;background-size: 100% ;height: 700px;margin-top: -50px">   
         </div>
       </div>
     </div>
   </div>
   <div id="learning" class="section">
-    <div class="container">
-      <div class="row" style="padding-top: 70px">
-       
+    <div class="container" style="">
+      <div class="row" style="padding-top: 70px;">
+        
+         <div data-wow-delay="0.8s" data-wow-duration="0.7s" class="col-md-6 wow flipInX bg" align="center" style="background: url('./img/2.png') 50% no-repeat;background-size: 100% ;height: 700px;margin-top: -50px">   
+        </div>
         <div class="col-md-6">
         <h1 align="center" class="wow bounceInDown" style="color:#ddd">Comcamp คืออะไร ?</h1>
     <div class="wow bounceInRight"  data-wow-delay="0.8s" data-wow-duration="0.7s">
@@ -79,9 +81,6 @@
     </div>
           
         </div>
-         <div data-wow-delay="0.8s" data-wow-duration="0.7s" class="col-md-6 wow flipInY bg" align="center" style="background: url('./img/2.png') 50% no-repeat;background-size: 680px 680px;height: 680px;margin-top: -50px">   
-        </div>
-
       </div>
     </div>
   </div>
@@ -121,6 +120,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
   <script src="https://npmcdn.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
   <script src="./js/smooth-scroll.min.js"></script>
+  <script src="./js/scrolling.js"></script>
   <script src="./js/js.js"></script>
 </body>
 </html>
