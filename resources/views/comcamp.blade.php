@@ -9,31 +9,81 @@
   <link rel="stylesheet" href="./css/responsive.css">
   <link rel="stylesheet" href="./css/animate.min.css">
 </head>
-<body>
+<body onload="init();" style="margin:0px;" data-spy="scroll" data-target=".navbar" data-offset="50">
+<nav class="navbar navbar-inverse navbar-fixed-top" id="background">
+  <div class="container" >
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                      
+      </button>
+      <a class="navbar-brand" href="#" style="width: 150px;margin-top: -4px">ComCamp#29</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav" id="menu">
+          <li><a data-scroll href="#home">Section 1</a></li>
+          <li><a data-scroll href="#comcamp">Section 2</a></li>
+          <li><a data-scroll href="#learning">Section 5</a></li>
+          <li><a data-scroll href="#schedule">Section 5</a></li>
+          <li><a data-scroll href="#contact">Section 5</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#myModal"><span class="glyphicon glyphicon-user"></span> สมัครค่ายนี้</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
 <div id="page">  
-  <div id="home" class="section" align="center">
-      <img src="img/logo.png" width="500px" alt="">
+  <div id="home" class="section">
+      <!-- <div id="whatcomcamp" class="wow zoomIn parallaxx" style="margin-top: 10px"></div> -->
+      <div class="spotlight"></div>
+      <iframe src="./theif.html" frameborder="0" id="thief"></iframe>
+  </div>
+
   </div>
   <div id="comcamp" class="section">
     <div class="container">
-      <div class="row">
-        <h1 align="center" class="wow bounceInDown" style="margin:50px">Comcamp คืออะไร ?</h1>
-        <div class="col-md-6">
-          <p id="left" class="wow leftTran"  data-wow-delay="0.5s" data-wow-duration="0.7s" style="margin-left: 100%">wow leftTran</p>
+      <div class="row" style="padding-top: 70px">
+       
+        <div class="col-md-6" align="center">
+        <h1 align="center" class="wow bounceInDown" style="color:#ddd">Comcamp คืออะไร ?</h1>
+    <div class="wow bounceInLeft"  data-wow-delay="0.4s" data-wow-duration="0.7s" align="left" style="margin-top: 30px">
+    <!-- <h2 class="wow bounceInRight"  data-wow-delay="0.5s" data-wow-duration="0.7s">Comcamp 29th</h2> -->
+โครงการฝึกอบรมเชิงปฏิบัติการคอมพิวเตอร์เบื้องต้น ครั้งที่29
+น้องๆเคยสงสัยกันบ้างหรือเปล่า ว่าวิศวะคอมทำอะไรกัน? สนุกไหม?
+น้องๆเคยสงสัยกันบ้างหรือเปล่า ว่าวิศวะคอมทำอะไรกัน? สนุกไหม? แล้วเสน่ห์ของวิศวะคอมคืออะไรกันนะ?งั้นมาเข้าค่าย Comcamp 29th กันเถอะ!
+มาลองสัมผัสความเป็นนักศึกษาวิศวะคอมพิวเตอร์ มาเรียนรู้ มาลงมือทำจริง ซึมซับประสบการณ์ใหม่ๆ และมาพับกบ เอ้ย! พบกับเพื่อนๆมากหน้าหลายตา และที่สำคัญค่ายนี้...ฟรีทั้งค่าย พี่ๆกำลังรอน้องๆมาเป็นส่วนหนึ่งของค่ายอยู่นะ รีบสมัครกันเข้ามาเยอะๆน้า
+    </div><br>
+        <iframe id="vid" class="wow bounceInLeft animate" style="margin-top: 30px"  data-wow-delay="0.6s" data-wow-duration="0.7s" width="80%" height="315" src="https://www.youtube.com/embed/BcHm8s0beHk?controls=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
         </div>
-        <div class="col-md-6">
-            <h2>Comcamp 29th</h2>
-    <div class="wow fadeInUp"  data-wow-delay="1.5s" data-wow-duration="0.7s" style="word-wrap: break-word;">
-    <dd>โครงการฝึกอบรมเชิงปฏิบัติการคอมพิวเตอร์เบื้องต้น ครั้งที่29</dd>
-    <dd>น้องๆเคยสงสัยกันบ้างหรือเปล่า ว่าวิศวะคอมทำอะไรกัน? สนุกไหม? แล้วเสน่ห์ของวิศวะคอมคืออะไรกันนะ?งั้นมาเข้าค่าย Comcamp 29th กันเถอะ!</dd> มาลองสัมผัสความเป็นนักศึกษาวิศวะคอมพิวเตอร์ มาเรียนรู้ มาลงมือทำจริง ซึมซับประสบการณ์ใหม่ๆ และมาพับกบ เอ้ย! พบกับเพื่อนๆมากหน้าหลายตา และที่สำคัญค่ายนี้...ฟรีทั้งค่าย พี่ๆกำลังรอน้องๆมาเป็นส่วนหนึ่งของค่ายอยู่นะ รีบสมัครกันเข้ามาเยอะๆน้า
-    </div>
-          
+         <div data-wow-delay="0.8s" data-wow-duration="0.7s" class="col-md-6 wow flipInX bg" align="center" style="background: url('./img/1.png') 50% no-repeat;background-size: 680px 680px;height: 680px;margin-top: -50px">   
         </div>
       </div>
     </div>
   </div>
   <div id="learning" class="section">
-    
+    <div class="container">
+      <div class="row" style="padding-top: 70px">
+       
+        <div class="col-md-6">
+        <h1 align="center" class="wow bounceInDown" style="color:#ddd">Comcamp คืออะไร ?</h1>
+    <div class="wow bounceInRight"  data-wow-delay="0.8s" data-wow-duration="0.7s">
+    <!-- <h2 class="wow bounceInRight"  data-wow-delay="0.5s" data-wow-duration="0.7s">Comcamp 29th</h2> -->
+โครงการฝึกอบรมเชิงปฏิบัติการคอมพิวเตอร์เบื้องต้น ครั้งที่29
+น้องๆเคยสงสัยกันบ้างหรือเปล่า ว่าวิศวะคอมทำอะไรกัน? สนุกไหม?
+น้องๆเคยสงสัยกันบ้างหรือเปล่า ว่าวิศวะคอมทำอะไรกัน? สนุกไหม? แล้วเสน่ห์ของวิศวะคอมคืออะไรกันนะ?งั้นมาเข้าค่าย Comcamp 29th กันเถอะ!
+มาลองสัมผัสความเป็นนักศึกษาวิศวะคอมพิวเตอร์ มาเรียนรู้ มาลงมือทำจริง ซึมซับประสบการณ์ใหม่ๆ และมาพับกบ เอ้ย! พบกับเพื่อนๆมากหน้าหลายตา และที่สำคัญค่ายนี้...ฟรีทั้งค่าย พี่ๆกำลังรอน้องๆมาเป็นส่วนหนึ่งของค่ายอยู่นะ รีบสมัครกันเข้ามาเยอะๆน้า
+    </div>
+          
+        </div>
+         <div data-wow-delay="0.8s" data-wow-duration="0.7s" class="col-md-6 wow flipInY bg" align="center" style="background: url('./img/2.png') 50% no-repeat;background-size: 680px 680px;height: 680px;margin-top: -50px">   
+        </div>
+
+      </div>
+    </div>
   </div>
   <div id="schedule" class="section">
     
@@ -53,7 +103,7 @@
   </div>
 </div>
 
-<nav id="menu" class="menu container">
+<!-- <nav id="menu" class="menu container">
   <ul class="main">
   <li><a data-scroll href="#home" class="action-button animate"><span class="glyphicon glyphicon-home"></span> Home</a></li>
   <li><a data-scroll href="#comcamp" class="action-button animate">Comcamp</a></li>
@@ -63,7 +113,7 @@
   <br>
   <a class="mmenu"><span class="glyphicon glyphicon-menu-hamburger" style="font-size: 30px;font-color:#000;padding-top: 9px"></span></a>
   </ul>
-</nav>
+</nav> -->
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -72,6 +122,5 @@
   <script src="https://npmcdn.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
   <script src="./js/smooth-scroll.min.js"></script>
   <script src="./js/js.js"></script>
-  <script>new WOW().init();</script>
 </body>
 </html>
