@@ -219,7 +219,7 @@
           Facebook Fanpage : Comcamp KMUTT ตลอด 24 ชั่วโมง
           </div>
         </div>
-         <div data-wow-delay="0.8s" data-wow-duration="0.7s" class="col-md-6 wow rollIn bg col-md-7 marginTop" align="center"> 
+         <div data-wow-delay="0.8s" data-wow-duration="0.7s" class="wow rollIn bg col-md-7 marginTop" align="center" > 
           <div class="fb-page" data-href="https://www.facebook.com/KMUTTcomcamp/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" style="float:right;width: 50%;margin-left: 5%;" data-height="400"><blockquote cite="https://www.facebook.com/KMUTTcomcamp/?fref=ts" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/KMUTTcomcamp/?fref=ts">Comcamp KMUTT</a></blockquote></div>
          
          <div style="width:45%;float: right">  
