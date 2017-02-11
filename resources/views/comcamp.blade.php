@@ -10,6 +10,14 @@
   <link rel="stylesheet" href="./css/animate.min.css">
 </head>
 <body onload="init();" style="margin:0px;" data-spy="scroll" data-target=".navbar" data-offset="50">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/th_TH/sdk.js#xfbml=1&version=v2.8&appId=1528156984120005";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <nav class="navbar navbar-inverse navbar-fixed-top" id="background">
   <div class="container" >
     <div class="navbar-header">
@@ -76,16 +84,16 @@
           <!-- <h2 class="wow bounceInRight"  data-wow-delay="0.5s" data-wow-duration="0.7s">Comcamp 29th</h2> -->
           <div class="container" align="center" style="margin-top: 60px;color: black">
               <div class="row">
-                  <div class="col-sm-offset-6 col-sm-4"><img title="Arduino" data-toggle="popover" data-trigger="hover" data-content="Arduino" data-placement="left" class="wow bounceInRight" src="img/adu.png" width="120px" alt="Arduino">
+                  <div class="col-sm-offset-6 col-sm-4"><img title="Arduino" data-toggle="popover" data-trigger="hover" data-content="Arduino" data-placement="left" class="wow bounceInRight" src="img/adu.png" width="130px" alt="Arduino">
                   </div>
               </div>
               <div class="row">
-                  <div class="col-sm-4"><img title="Computer Programming" data-toggle="popover" data-trigger="hover" data-content="ภาษา c" data-placement="top" class="wow bounceInLeft" src="img/compro.png" width="120px" alt="C Language"></div>
-                  <div class="col-sm-4"><img title="Hardware" data-toggle="popover" data-trigger="hover" data-content="Hardware" data-placement="right" class="wow bounceIn" src="img/hardware.png" width="120px" alt="Hardware"></div>
-                  <div class="col-sm-4"><img title="Linux" data-toggle="popover" data-trigger="hover" data-content="Linux" data-placement="bottom" class="wow bounceInRight" src="img/linux.png" width="120px" alt="Linux"></div>
+                  <div class="col-sm-4"><img title="Computer Programming" data-toggle="popover" data-trigger="hover" data-content="ภาษา c" data-placement="top" class="wow bounceInLeft" src="img/compro.png" width="130px" alt="C Language"></div>
+                  <div class="col-sm-4"><img title="Hardware" data-toggle="popover" data-trigger="hover" data-content="Hardware" data-placement="right" class="wow bounceIn" src="img/hardware.png" width="130px" alt="Hardware"></div>
+                  <div class="col-sm-4"><img title="Linux" data-toggle="popover" data-trigger="hover" data-content="Linux" data-placement="bottom" class="wow bounceInRight" src="img/linux.png" width="130px" alt="Linux"></div>
               </div>
               <div class="row">
-                  <div class="col-sm-offset-2 col-sm-4"><img title="Web Programming" data-toggle="popover" data-trigger="hover" data-content="Web" class="wow bounceInLeft" src="img/web.png" width="120px" alt="Webapp"></div>
+                  <div class="col-sm-offset-2 col-sm-4"><img title="Web Programming" data-toggle="popover" data-trigger="hover" data-content="Web" class="wow bounceInLeft" src="img/web.png" width="130px" alt="Webapp"></div>
               </div>
           </div>
           </div>
@@ -202,10 +210,18 @@
       <div class="row">
        
         <div class="col-md-6" align="center">
-          ///facebook
+          <div align="right" class="text" style="font-size: 30px">ติดตามข่าวสาร<br>
+          หรือสอบถามข้อมูลได้ที่
+          </div>
+          <br><br>
+          <div align="right" class="text" style="font-size: 18px">น้อง ๆ สามารถติดตามข่าวสารค่าย Comcamp 29<br>
+          หรือน้อง ๆ มีข้อสงสัย สามารถติดตามและสอบถามได้ที่<br>
+          Facebook Fanpage : Comcamp KMUTT ตลอด 24 ชั่วโมง
+          </div>
         </div>
-         <div data-wow-delay="0.8s" data-wow-duration="0.7s" class="col-md-6 wow rollIn bg" align="center"> 
-            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FKMUTTcomcamp%2F%3Ffref%3Dts&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=1528156984120005" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+         <div class="marginTop" data-wow-delay="0.8s" data-wow-duration="0.7s" class="col-md-6 wow rollIn bg" align="center"> 
+         <div class="fb-page" data-href="https://www.facebook.com/KMUTTcomcamp/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/KMUTTcomcamp/?fref=ts" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/KMUTTcomcamp/?fref=ts">Comcamp KMUTT</a></blockquote></div>
+         <a class="twitter-timeline" data-width="250" data-height="400px" href="https://twitter.com/comcamp_kmutt">Tweets by comcamp_kmutt</a>
         </div>
       </div>
     </div>
@@ -226,9 +242,7 @@
   <script src="./js/js.js"></script>
   <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
   <script src="./js/Scene1.js"></script> 
+  <script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <!--   <script src="./js/thief.js"></script> -->
-  <script>
-
-</script>
 </body>
 </html>
