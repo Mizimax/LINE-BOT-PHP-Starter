@@ -209,7 +209,7 @@
     <div class="container" style="padding-bottom: 100px">
       <div class="row">
        
-        <div class="col-md-6" align="center">
+        <div class="col-md-5" align="center">
           <div align="right" class="text" style="font-size: 30px">ติดตามข่าวสาร<br>
           หรือสอบถามข้อมูลได้ที่
           </div>
@@ -219,11 +219,11 @@
           Facebook Fanpage : Comcamp KMUTT ตลอด 24 ชั่วโมง
           </div>
         </div>
-         <div class="marginTop" data-wow-delay="0.8s" data-wow-duration="0.7s" class="col-md-6 wow rollIn bg" align="center"> 
-         <div style="width: 80%">  
+         <div data-wow-delay="0.8s" data-wow-duration="0.7s" class="col-md-6 wow rollIn bg col-md-7 marginTop" align="center"> 
+         <div style="width:40%;">  
           <div class="fb-page" data-href="https://www.facebook.com/KMUTTcomcamp/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" style="float:left"><blockquote cite="https://www.facebook.com/KMUTTcomcamp/?fref=ts" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/KMUTTcomcamp/?fref=ts">Comcamp KMUTT</a></blockquote></div>
          </div>
-         <div style="width:30%;float: right">  
+         <div style="width:50%;float: left">  
          <a class="twitter-timeline" data-height="400px" href="https://twitter.com/comcamp_kmutt">Tweets by comcamp_kmutt</a>
          </div>
         </div>
