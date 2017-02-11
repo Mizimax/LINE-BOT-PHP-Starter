@@ -7,7 +7,12 @@
     .container{
       width: 100%;
     }
-
+    .text{
+      text-align: left;
+    }
+    #learning .container .container .row .col-sm-4{
+      margin-top: 20px;
+    }
   }
 @media only screen and (max-width: 930px){
    	#menu .main li{
@@ -55,6 +60,6 @@
       padding-left: 8px!important;
   }
   .bg{
-      /*margin-top:0!important;*/
+      margin-top:0!important;
     }
 }

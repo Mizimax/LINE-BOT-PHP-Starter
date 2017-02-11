@@ -18,19 +18,20 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>                      
       </button>
-      <a class="navbar-brand" href="#" style="width: 150px;margin-top: -4px">ComCamp#29</a>
+      <div style="width: 160px;margin:0!important;padding: 0!important;text-align: center"><img src="img/navlogo.png" alt="comcamp29" style="float: left;height: 56px"><h1 style="font-size: 18px;float: left;">ComCamp</h1> </div>
     </div>
     <div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav" id="menu">
-          <li><a data-scroll href="#home">Section 1</a></li>
-          <li><a data-scroll href="#comcamp">Section 2</a></li>
-          <li><a data-scroll href="#learning">Section 5</a></li>
-          <li><a data-scroll href="#schedule">Section 5</a></li>
-          <li><a data-scroll href="#contact">Section 5</a></li>
+          <li><a data-scroll href="#home">Home</a></li>
+          <li><a data-scroll href="#comcamp">What</a></li>
+          <li><a data-scroll href="#learning">Learning</a></li>
+          <li><a data-scroll href="#schedule">Schedule</a></li>
+          <li><a data-scroll href="#qanda">Q&A</a></li>
+          <li><a data-scroll href="#contact">Contact</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#myModal"><span class="glyphicon glyphicon-user"></span> สมัครค่ายนี้</a></li>
+          <li><a data-scroll href="#regis"><span class="glyphicon glyphicon-user"></span> สมัครค่ายเลย !</a></li>
         </ul>
       </div>
     </div>
@@ -38,84 +39,183 @@
 </nav>    
 <div id="page">  
   <div id="home" class="section">
-      <div id="whatcomcamp" class="wow zoomIn parallaxx" style="margin-top: 10px"></div>
+      <div id="whatcomcamp" class="wow zoomIn parallaxx"></div>
       <!-- <div class="spotlight"></div>
       <iframe src="./theif.html" frameborder="0" id="thief"></iframe> -->
   </div>
-
-  </div>
   <div id="comcamp" class="section">
     <div class="container">
-      <div class="row" style="padding-top: 70px">
+      <div class="row">
        
         <div class="col-md-6" align="center">
-        <h1 align="center" class="wow bounceInDown" style="color:#ddd">Comcamp คืออะไร ?</h1>
-    <div class="wow bounceInLeft"  data-wow-delay="0.4s" data-wow-duration="0.7s" align="left" style="margin-top: 30px">
-    <!-- <h2 class="wow bounceInRight"  data-wow-delay="0.5s" data-wow-duration="0.7s">Comcamp 29th</h2> -->
-โครงการฝึกอบรมเชิงปฏิบัติการคอมพิวเตอร์เบื้องต้น ครั้งที่29
-น้องๆเคยสงสัยกันบ้างหรือเปล่า ว่าวิศวะคอมทำอะไรกัน? สนุกไหม?
-น้องๆเคยสงสัยกันบ้างหรือเปล่า ว่าวิศวะคอมทำอะไรกัน? สนุกไหม? แล้วเสน่ห์ของวิศวะคอมคืออะไรกันนะ?งั้นมาเข้าค่าย Comcamp 29th กันเถอะ!
-มาลองสัมผัสความเป็นนักศึกษาวิศวะคอมพิวเตอร์ มาเรียนรู้ มาลงมือทำจริง ซึมซับประสบการณ์ใหม่ๆ และมาพับกบ เอ้ย! พบกับเพื่อนๆมากหน้าหลายตา และที่สำคัญค่ายนี้...ฟรีทั้งค่าย พี่ๆกำลังรอน้องๆมาเป็นส่วนหนึ่งของค่ายอยู่นะ รีบสมัครกันเข้ามาเยอะๆน้า
-    </div><br>
-        <iframe id="vid" class="wow bounceInLeft animate" style="margin-top: 30px"  data-wow-delay="0.6s" data-wow-duration="0.7s" width="80%" height="315" src="https://www.youtube.com/embed/BcHm8s0beHk?controls=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+          <h1 align="right" class="wow bounceInDown" style="color:#ddd">Comcamp คืออะไร ?</h1>
+          <div class="wow bounceInLeft text"  data-wow-delay="0.4s" data-wow-duration="0.7s" align="right" style="margin-top: 30px">
+          <!-- <h2 class="wow bounceInRight"  data-wow-delay="0.5s" data-wow-duration="0.7s">Comcamp 29th</h2> -->
+      โครงการฝึกอบรมเชิงปฏิบัติการคอมพิวเตอร์เบื้องต้น ครั้งที่29
+      น้องๆเคยสงสัยกันบ้างหรือเปล่า ว่าวิศวะคอมทำอะไรกัน? สนุกไหม?
+      น้องๆเคยสงสัยกันบ้างหรือเปล่า ว่าวิศวะคอมทำอะไรกัน? สนุกไหม? แล้วเสน่ห์ของวิศวะคอมคืออะไรกันนะ?งั้นมาเข้าค่าย Comcamp 29th กันเถอะ!
+      มาลองสัมผัสความเป็นนักศึกษาวิศวะคอมพิวเตอร์ มาเรียนรู้ มาลงมือทำจริง ซึมซับประสบการณ์ใหม่ๆ และมาพับกบ เอ้ย! พบกับเพื่อนๆมากหน้าหลายตา และที่สำคัญค่ายนี้...ฟรีทั้งค่าย พี่ๆกำลังรอน้องๆมาเป็นส่วนหนึ่งของค่ายอยู่นะ รีบสมัครกันเข้ามาเยอะๆน้า
+          </div>
         </div>
-         <div data-wow-delay="0.8s" data-wow-duration="0.7s" class="col-md-6 wow flipInX bg" align="center" style="margin-top: 50px"> 
-         <img src="./img/1.png" width="100%" alt="">   
+         <div data-wow-delay="0.8s" data-wow-duration="0.7s" class="col-md-6 wow flipInX bg" align="center"> 
+         <div id="animation_container">
+    <canvas id="canvas"></canvas>
+    <div id="dom_overlay_container">
+    </div>
+  </div>
         </div>
       </div>
     </div>
   </div>
   <div id="learning" class="section">
     <div class="container" style="">
-      <div class="row" style="padding-top: 70px;">
-        
-         <div data-wow-delay="0.8s" data-wow-duration="0.7s" class="col-md-6 wow flipInX bg" align="center">  
+      <div class="row">
+        <div id="after" class="col-md-6 col-md-push-6">
+          <h1 align="center" class="wow bounceInDown" style="color:#ddd;">วิชาที่น้องจะได้เรียน</h1>
+          <div class="text"  data-wow-delay="0.8s" data-wow-duration="0.7s" style="margin-top: 30px" align="left">
+          <!-- <h2 class="wow bounceInRight"  data-wow-delay="0.5s" data-wow-duration="0.7s">Comcamp 29th</h2> -->
+          <div class="container" align="center" style="margin-top: 60px;color: black">
+              <div class="row">
+                  <div class="col-sm-offset-6 col-sm-4"><img title="Arduino" data-toggle="popover" data-trigger="hover" data-content="Arduino" data-placement="left" class="wow bounceInRight" src="img/adu.png" width="120px" alt="Arduino">
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-sm-4"><img title="Computer Programming" data-toggle="popover" data-trigger="hover" data-content="ภาษา c" data-placement="top" class="wow bounceInLeft" src="img/compro.png" width="120px" alt="C Language"></div>
+                  <div class="col-sm-4"><img title="Hardware" data-toggle="popover" data-trigger="hover" data-content="Hardware" data-placement="right" class="wow bounceIn" src="img/hardware.png" width="120px" alt="Hardware"></div>
+                  <div class="col-sm-4"><img title="Linux" data-toggle="popover" data-trigger="hover" data-content="Linux" data-placement="bottom" class="wow bounceInRight" src="img/linux.png" width="120px" alt="Linux"></div>
+              </div>
+              <div class="row">
+                  <div class="col-sm-offset-2 col-sm-4"><img title="Web Programming" data-toggle="popover" data-trigger="hover" data-content="Web" class="wow bounceInLeft" src="img/web.png" width="120px" alt="Webapp"></div>
+              </div>
+          </div>
+          </div>
+          
+        </div>
+        <div id="before" data-wow-delay="0.8s" data-wow-duration="0.7s" class="col-md-6 col-md-pull-6 wow flipInX bg" align="center"> 
          <img src="./img/2.png" width="100%" alt=""> 
         </div>
-        <div class="col-md-6">
-        <h1 align="center" class="wow bounceInDown" style="color:#ddd">Comcamp คืออะไร ?</h1>
-    <div class="wow bounceInRight"  data-wow-delay="0.8s" data-wow-duration="0.7s">
-    <!-- <h2 class="wow bounceInRight"  data-wow-delay="0.5s" data-wow-duration="0.7s">Comcamp 29th</h2> -->
-โครงการฝึกอบรมเชิงปฏิบัติการคอมพิวเตอร์เบื้องต้น ครั้งที่29
-น้องๆเคยสงสัยกันบ้างหรือเปล่า ว่าวิศวะคอมทำอะไรกัน? สนุกไหม?
-น้องๆเคยสงสัยกันบ้างหรือเปล่า ว่าวิศวะคอมทำอะไรกัน? สนุกไหม? แล้วเสน่ห์ของวิศวะคอมคืออะไรกันนะ?งั้นมาเข้าค่าย Comcamp 29th กันเถอะ!
-มาลองสัมผัสความเป็นนักศึกษาวิศวะคอมพิวเตอร์ มาเรียนรู้ มาลงมือทำจริง ซึมซับประสบการณ์ใหม่ๆ และมาพับกบ เอ้ย! พบกับเพื่อนๆมากหน้าหลายตา และที่สำคัญค่ายนี้...ฟรีทั้งค่าย พี่ๆกำลังรอน้องๆมาเป็นส่วนหนึ่งของค่ายอยู่นะ รีบสมัครกันเข้ามาเยอะๆน้า
+      </div>
     </div>
-          
+  </div>
+  <div id="regis" class="section">
+    <div class="container">
+      <div class="row">
+       
+        <div class="col-md-6" align="center">
+          <h1 align="center" class="wow tada" style="color:#ddd;padding-top: 60px">เปิดรับสมัครแล้ว !!</h1>
+          <div class="wow fadeInUp"  data-wow-delay="0.4s" data-wow-duration="0.7s" align="center" style="margin-top: 30px;">
+          <!-- <h2 class="wow bounceInRight"  data-wow-delay="0.5s" data-wow-duration="0.7s">Comcamp 29th</h2> -->
+          <div class="submit wow pulse infinite" onclick="window.location='regis.php'">สมัครเลย !</div>
+          </div><br>
+        </div>
+         <div data-wow-delay="0.8s" data-wow-duration="0.7s" class="col-md-6 wow flipInX bg" align="center"> 
+         <img src="./img/3.png" width="100%" alt="">   
         </div>
       </div>
     </div>
   </div>
   <div id="schedule" class="section">
-    
+    <div class="container" style="">
+      <div class="row">
+        <div id="after" class="col-md-6 col-md-push-6">
+          <div class="wow bounceInRight text"  data-wow-delay="0.8s" data-wow-duration="0.7s" style="margin-top: 30px" align="left">
+          <!-- <h2 class="wow bounceInRight"  data-wow-delay="0.5s" data-wow-duration="0.7s">Comcamp 29th</h2> -->
+          <div class="header">
+            <h3 align="left" style="color:#ddd;padding-left: 10%;padding-top: 25px">กำหนดการ (Schedule)</h3>
+            </div>
+            <div class="question" style="padding-bottom: 20px;background: rgba(255,255,255,0.7);color:black">
+            <div class="container">
+              <div class="col1">
+              <div style="border-bottom: 1px solid #666;padding-bottom: 5px;font-size: 19px">วันที่</div>
+              <div class="table1">5555</div>
+              <div class="table1">5555</div>
+              <div class="table1">5555</div>
+              <div class="table1">5555</div>
+              <div class="table1">5555</div>
+              </div>
+              <div class="col2">
+              <div style="border-bottom: 1px solid #666;padding-bottom: 5px;font-size: 19px">กำหนดการ</div>
+              <div class="table2">5555</div>
+              <div class="table2">5555</div>
+              <div class="table2">5555</div>
+              <div class="table2">5555</div>
+              <div class="table2">5555</div>
+              </div>
+              <div></div>
+            </div>
+          </div>
+          </div>
+          
+        </div>
+        <div id="before" data-wow-delay="0.8s" data-wow-duration="0.7s" class="col-md-6 col-md-pull-6 wow flipInX bg" align="center"> 
+         <img src="./img/2.png" width="100%" alt=""> 
+        </div>
+      </div>
+    </div>
   </div>
-  <div id="sponsors" class="section">
-    
+  <div id="qanda" class="section">
+    <div class="container">
+      <div class="row">
+       
+        <div class="col-md-6" align="center">
+          <div class="wow bounceInLeft"  data-wow-delay="0.4s" data-wow-duration="0.7s" align="right" style="margin-top: 30px">
+          <!-- <h2 class="wow bounceInRight"  data-wow-delay="0.5s" data-wow-duration="0.7s">Comcamp 29th</h2> -->
+          <div style=" width: 100%;">
+            <div class="header">
+            <h3 align="right" style="color:#ddd;padding-right: 10%;padding-top: 25px">คำถามที่พบบ่อย (Q&A)</h3>
+            </div>
+            <div class="question container"  data-toggle="collapse" data-target=".answer:first">
+            <div class="content">
+            55555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555
+            </div>
+            <div class="who"> : Q</div>
+            </div>
+            <div class="answer container collapse">
+            <div class="content">
+            55555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555
+            </div>
+            <div class="who"> : A</div>
+            </div>
+            <div class="question container" data-toggle="collapse" data-target=".answer:last"">
+            <div class="content">
+            55555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555
+            </div>
+            <div class="who"> : Q</div>
+            </div>
+            <div class="answer container collapse">
+            <div class="content">
+            55555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555
+            </div>
+            <div class="who"> : A</div>
+            </div>
+          </div>
+        </div>
+        </div>
+         <div data-wow-delay="0.8s" data-wow-duration="0.7s" class="col-md-6 wow flipInX bg" align="right"> 
+         <img src="./img/5.png" width="100%" alt="">   
+        </div>
+      </div>
+    </div>
   </div>
   <div id="contact" class="section">
-    <div class="container">
-      test
+    <div class="container" style="padding-bottom: 100px">
+      <div class="row">
+       
+        <div class="col-md-6" align="center">
+          ///facebook
+        </div>
+         <div data-wow-delay="0.8s" data-wow-duration="0.7s" class="col-md-6 wow rollIn bg" align="center"> 
+            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FKMUTTcomcamp%2F%3Ffref%3Dts&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=1528156984120005" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+        </div>
+      </div>
     </div>
     <div class="footer">
      <div class="container" style="height: 100%;display: flex; align-items: center;justify-content: center;color:#fff;background-color: #282828;">
      © 2016 Comcamp 29th All Rights Reserved. Designed and developed by CPE#30
      </div>
-  </div>
+</div>
   </div>
 </div>
-
-<!-- <nav id="menu" class="menu container">
-  <ul class="main">
-  <li><a data-scroll href="#home" class="action-button animate"><span class="glyphicon glyphicon-home"></span> Home</a></li>
-  <li><a data-scroll href="#comcamp" class="action-button animate">Comcamp</a></li>
-  <li><a data-scroll href="#learning" class="action-button animate">Learning</a></li>
-  <li><a data-scroll href="#schedule" class="action-button animate">Schedule</a></li>
-  <li><a data-scroll href="#contact" class="action-button animate">Contact</a></li>
-  <br>
-  <a class="mmenu"><span class="glyphicon glyphicon-menu-hamburger" style="font-size: 30px;font-color:#000;padding-top: 9px"></span></a>
-  </ul>
-</nav> -->
-
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax-min.js"></script>
@@ -124,5 +224,11 @@
   <script src="./js/smooth-scroll.min.js"></script>
   <script src="./js/scrolling.js"></script>
   <script src="./js/js.js"></script>
+  <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+  <script src="./js/Scene1.js"></script> 
+<!--   <script src="./js/thief.js"></script> -->
+  <script>
+
+</script>
 </body>
 </html>
