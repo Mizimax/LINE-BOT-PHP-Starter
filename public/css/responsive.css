@@ -54,9 +54,7 @@
   .bg{
       margin-top:0!important;
     }
-}
-@media (min-width: 965px){
   #logo{
-        width: 50%!important;
+      width: 80%!important;
   }
 }

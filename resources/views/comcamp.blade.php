@@ -111,7 +111,7 @@
           </div><br>
         </div>
          <div data-wow-delay="0.8s" data-wow-duration="0.7s" class="col-md-6 wow flipInX bg marginTop" align="center"> 
-         <img src="./img/3.png" width="100%" alt="">   
+         <img src="./img/3.png" style="width: 50%" alt="">   
         </div>
       </div>
     </div>
