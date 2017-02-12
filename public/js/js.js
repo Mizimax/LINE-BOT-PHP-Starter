@@ -37,8 +37,13 @@ $(document).ready(function(){
     $('[data-toggle="popover"]:eq(4)').attr('data-placement','left');
   } 
   $('[data-toggle="popover"]').popover();
+  var isClick=false;
+  var i=0;
+  $('.question').click(function(){  
+    $('.question').removeClass('qactive');
+    $(this).addClass('qactive');
+  });
   var lanopt = $("#faq");
-
   lanopt.on("show.bs.collapse",".collapse", function(){
      lanopt.find(".collapse.in").collapse("hide");
   });

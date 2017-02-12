@@ -18,7 +18,9 @@
   }
   #home{
     background-color:#11182b;
-    height: auto;
+    height: 100vh;
+    display: table-cell;
+    vertical-align:middle;
     padding-top: 0 !important;
   }
   #comcamp{background-color: #ccc;}
@@ -233,7 +235,6 @@ ul{
   .who{
     float:left;
     width: auto;
-    margin-left:10px;
   }
   .header{
     height: 70px;
@@ -243,12 +244,12 @@ ul{
     -moz-border-radius: 15px 15px 0 0;
   }
   .col1{
-    width: auto;
+    width: 33%;
     float: left;
     margin-right: 2%;
   }
   .col2{
-    width: 70%;
+    width: 65%;
     float: left;
     padding-bottom: 10px;
   }
@@ -291,4 +292,8 @@ ul{
   .space{
     background: url('../img/bottom.png') no-repeat;
     background-position: bottom;
+  }
+  .qactive{
+    background: #a22458;
+    color:white;
   }

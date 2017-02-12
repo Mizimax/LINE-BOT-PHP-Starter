@@ -54,7 +54,7 @@
   .bg{
       margin-top:0!important;
     }
-  #logo{
-      width: 80%!important;
+  .marginTop{
+    padding-top: 100px!important;
   }
 }

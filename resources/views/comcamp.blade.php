@@ -38,9 +38,9 @@
     </div>
   </div>
 </nav>    
-<div id="page">  
+<div id="page" align="center">  
   <div id="home" class="section" align="center">
-      <img src="img/logo.png" class="wow zoomIn" data-wow-duration="1.5s" wow id="logo" style="width: 50%" alt="">
+      <img src="img/logo.png" class="wow zoomIn" data-wow-duration="1.5s" wow id="logo" style="width: 80%" alt="">
   </div>
   <div id="comcamp" class="section">
     <div class="container">
@@ -56,7 +56,7 @@
           </div>
         </div>
          <div data-wow-delay="0.8s" data-wow-duration="0.7s" class="col-md-6 wow flipInX bg marginTop" align="center"> 
-         <iframe src="Scene1.html" height="500" width="500" frameBorder="0" scrolling="no"></iframe>
+         <img src="./img/1.gif" height="500px">
         </div>
       </div>
     </div>
@@ -91,7 +91,7 @@
           <div id="dom_overlay_container2">
           </div>
         </div> -->
-        <iframe src="Scene2.html" height="500" width="500" frameBorder="0" scrolling="no"></iframe>
+       <img src="./img/2.gif" height="500px">
       </div>
     </div>
   </div>
@@ -109,7 +109,7 @@
           </div><br>
         </div>
          <div data-wow-delay="0.8s" data-wow-duration="0.7s" class="col-md-6 wow flipInX bg marginTop" align="center"> 
-         <iframe src="Scene3.html" height="500" width="500" frameBorder="0" scrolling="no"></iframe>  
+         <img src="./img/3.gif" height="500px">
         </div>
       </div>
     </div>
@@ -129,11 +129,13 @@
               <div style="border-bottom: 1px solid #666;padding-bottom: 5px;font-size: 19px">วันที่</div>
               <div class="table1">12/02/2017</div>
               <div class="table1">05/03/2017</div>
+              <div class="table1">10-14/03/2017</div>
               </div>
               <div class="col2">
               <div style="border-bottom: 1px solid #666;padding-bottom: 5px;font-size: 19px">กำหนดการ</div>
               <div class="table2">เปิดรับสมัครเข้าร่วมโครงการ</div>
               <div class="table2">วันสุดท้ายในการสมัครเข้าร่วมโครงการ</div>
+              <div class="table2">ระยะเวลาดำเนินค่าย Comcamp 29</div>
               </div>
               <div></div>
             </div>
@@ -142,7 +144,7 @@
           
         </div>
         <div id="before" data-wow-delay="0.8s" data-wow-duration="0.7s" class="col-md-6 col-md-pull-6 wow flipInX bg marginTop" align="center"> 
-          <iframe src="Scene4.html" height="500" width="500" frameBorder="0" scrolling="no"></iframe>
+          <img src="./img/4.gif" height="500px">
         </div>
       </div>
     </div>
@@ -272,7 +274,7 @@
             </div>
           </div>
          <div data-wow-delay="0.8s" data-wow-duration="0.7s" class="col-md-6 wow flipInX bg marginTop" align="right" style="padding-top: 40px;"> 
-          <iframe src="Scene5.html" height="500" width="500" frameBorder="0" scrolling="no"></iframe>  
+          <img src="./img/5.gif" height="500px">
         </div>
       </div>
     </div>
@@ -329,7 +331,7 @@
         </div>
         <div id="before" data-wow-delay="0.8s" data-wow-duration="0.7s" class="col-md-6 col-md-pull-6 wow flipInX marginTop" align="center" style="height: auto"> 
         <div style="margin-top:150px;width: 100%;height: 100%">
-         <div class="vid"><iframe style="padding-top: 15px;" width="370" height="225px" src="https://www.youtube.com/embed/BcHm8s0beHk" frameborder="0" allowfullscreen></iframe></div>
+         <div class="vid"><iframe style="padding-top: 15px;" width="370" height="225px" src="https://www.youtube.com/embed/BcHm8s0beHk?rel=0&controls=0&showinfo=0" frameborder="0" allowfullscreen></iframe></div>
          <img src="./img/table.png" width="100%"> 
         </div>
         </div>
@@ -338,7 +340,7 @@
 </div>
 <div class="space section"> 
     <div class="footer">
-     <div class="container" style="height: 100%;display: flex; align-items: center;justify-content: center;color:#fff;background-color: #231f20;">
+     <div class="container"  style="height: 100%;padding-top:15px;color:#fff;background-color: #231f20;">
      © 2016 Comcamp 29th All Rights Reserved. Designed and developed by CPE#30
      </div>
     </div>
