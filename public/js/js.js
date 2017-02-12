@@ -19,7 +19,8 @@ $(window).bind('scroll', function(){
       fading.show(); 
       //$('body').animate({ backgroundColor: rgba(0,0,0,1) }, 0);
     }
-    if(offset<targetOffset-200){
+    //fade color
+    /*if(offset<targetOffset-200){
       if(!$('body').is('.mcolor')){
         $('body').attr('class','');
         $('body').addClass('mcolor bganimate');
@@ -35,7 +36,7 @@ $(window).bind('scroll', function(){
         $('body').attr('class','');
         $('body').addClass('lcolor bganimate');
       }
-    }
+    }*/
     fading.css('background','rgba(255,255,255,' + opacity + ')');
 });
 $(document).ready(function(){
@@ -43,12 +44,7 @@ $(document).ready(function(){
   $('#thief').addClass('thiefmove');
 	smoothScroll.init({speed:1000});
 	$('#whatcomcamp').parallax("50%",0.3);
-  /*$('#learning .container .container img').hover(function(){
-    $('#learning .container .container img').css('opacity','0');
-    $(this).css('opacity','1');
-  },function(){
-    $('#learning .container .container img').css('opacity','1');
-  });*/
+
   $('#learning .container .container img').hover(function(){
     $(this).attr('style','opacity:1');
     $(this).attr('class','jello animated');
@@ -56,7 +52,6 @@ $(document).ready(function(){
     $(this).attr('class','');
   });
   if ($(window).width() < 768) {
-    //$('[data-toggle="popover"]:nth-of-type(odd)').attr('data-placement','right');
     $('[data-toggle="popover"]:eq(0)').attr('data-placement','left');
     $('[data-toggle="popover"]:eq(1)').attr('data-placement','right');
     $('[data-toggle="popover"]:eq(2)').attr('data-placement','left');

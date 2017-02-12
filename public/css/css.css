@@ -11,18 +11,25 @@
       max-width: 100%;
       overflow-x: hidden !important;
       background-color:#11182b;
+      background: #11182b; /* For browsers that do not support gradients */
+      background: -webkit-linear-gradient(#11182b, #744d57); /* For Safari 5.1 to 6.0 */
+      background: -o-linear-gradient(#11182b, #744d57); /* For Opera 11.1 to 12.0 */
+      background: -moz-linear-gradient(#11182b, #744d57); /* For Firefox 3.6 to 15 */
+      background: linear-gradient(#11182b, #744d57); /* Standard syntax */
     }
   .section{
     position: relative;
     color:#fff;
     word-wrap: break-word;height: auto;
     background-color: transparent !important;
+    padding-top: 80px;
   }
   #home{
     background-color:#11182b;
     height: 520px;
+    padding-top: 0 !important;
   }
-  #comcamp{background-color: #ccc;padding-top: 80px;}
+  #comcamp{background-color: #ccc;}
   #learning{background-color: #000; color: white}
   #schedule{background-color: #fff;}
   #contact{background-color: #ccc;}
@@ -172,9 +179,6 @@ ul{
   .lcolor{
     background-color:#1F2C4E;
   }
-  dd{
-    margin-left: 40px;
-  }
   .container{
     width: 80%;
   }
@@ -211,6 +215,7 @@ ul{
   }
   .question:hover{
     background: orange;
+    color:white;
     cursor: pointer;
   }
   .answer{
@@ -264,4 +269,24 @@ ul{
   .table2:hover{
     background: orange;
     color:white;
+  }
+  .conicon{
+    width: auto;
+    float: left;
+  }
+  .condetail{
+    width: auto;
+    font-size: 18px;
+    padding-top:16px;
+    padding-left: 80px;
+  }
+  .conhead{
+    width: 100%;
+    margin-top: 20px;
+  }
+  .space{
+    height: 400px;
+  }
+  .popover{
+    width: 500px;
   }

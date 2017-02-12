@@ -796,6 +796,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,169.1,367.6);
 	this.shape_6.setTransform(705,516.8);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape_6).wait(226));
+
 	// Layer 5
 	this.shape_7 = new cjs.Shape();
 	this.shape_7.graphics.f("#202C50").s().p("AzOaaMAAChK/MAmbAWMMAAABK/g");
@@ -850,20 +851,20 @@ p.nominalBounds = new cjs.Rectangle(0,0,169.1,367.6);
 	this.shape_12 = new cjs.Shape();
 	this.shape_12.graphics.f("#333333").s().p("EhA2AleMgAEhK9MBA8glgMBA5AleMAAABK/MhA7Alig");
 	this.shape_12.setTransform(512.3,538.4);
+
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_12},{t:this.shape_11},{t:this.instance_16},{t:this.instance_15},{t:this.shape_10},{t:this.instance_14},{t:this.shape_9},{t:this.shape_8},{t:this.instance_13},{t:this.instance_12},{t:this.instance_11}]}).wait(226));
+
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(595.9,621,831.9,960.2);
 // library properties:
 lib.properties = {
-	width: 1000*1.07,
-	height: 1125*1.07,
+	width: 1000,
+	height: 1125,
 	fps: 25,
 	color: "#FFFFFF",
 	opacity: 1.00,
 	webfonts: {},
-	manifest: [
-		{src:"img/1.png", id:"Image"}
-	],
+	manifest: [],
 	preloads: []
 };
 
@@ -875,66 +876,66 @@ var lib, images, createjs, ss, AdobeAn;
 
 var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
 function init() {
-  canvas = document.getElementById("canvas");
-  anim_container = document.getElementById("animation_container");
-  dom_overlay_container = document.getElementById("dom_overlay_container");
-  images = images||{};
-  var loader = new createjs.LoadQueue(false);
-  loader.addEventListener("fileload", handleFileLoad);
-  loader.addEventListener("complete", handleComplete);
-  loader.loadManifest(lib.properties.manifest);
+	canvas = document.getElementById("canvas");
+	anim_container = document.getElementById("animation_container");
+	dom_overlay_container = document.getElementById("dom_overlay_container");
+	images = images||{};
+	var loader = new createjs.LoadQueue(false);
+	loader.addEventListener("fileload", handleFileLoad);
+	loader.addEventListener("complete", handleComplete);
+	loader.loadManifest(lib.properties.manifest);
 }
-function handleFileLoad(evt) {  
-  if (evt.item.type == "image") { images[evt.item.id] = evt.result; } 
+function handleFileLoad(evt) {	
+	if (evt.item.type == "image") { images[evt.item.id] = evt.result; }	
 }
 function handleComplete(evt) {
-  //This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
-  var queue = evt.target;
-  var ssMetadata = lib.ssMetadata;
-  for(i=0; i<ssMetadata.length; i++) {
-    ss[ssMetadata[i].name] = new createjs.SpriteSheet( {"images": [queue.getResult(ssMetadata[i].name)], "frames": ssMetadata[i].frames} )
-  }
-  exportRoot = new lib.Scene1();
-  stage = new createjs.Stage(canvas);
-  stage.addChild(exportRoot); 
-  //Registers the "tick" event listener.
-  fnStartAnimation = function() {
-    createjs.Ticker.setFPS(lib.properties.fps);
-    createjs.Ticker.addEventListener("tick", stage);
-  }     
-  //Code to support hidpi screens and responsive scaling.
-  function makeResponsive(isResp, respDim, isScale, scaleType) {    
-    var lastW, lastH, lastS=1;    
-    window.addEventListener('resize', resizeCanvas);    
-    resizeCanvas();   
-    function resizeCanvas() {     
-      var w = lib.properties.width, h = lib.properties.height;      
-      var iw = window.innerWidth, ih=window.innerHeight;      
-      var pRatio = window.devicePixelRatio || 1, xRatio=iw/w, yRatio=ih/h, sRatio=1;      
-      if(isResp) {                
-        if((respDim=='width'&&lastW==iw) || (respDim=='height'&&lastH==ih)) {                    
-          sRatio = lastS;                
-        }       
-        else if(!isScale) {         
-          if(iw<w || ih<h)            
-            sRatio = Math.min(xRatio, yRatio);        
-        }       
-        else if(scaleType==1) {         
-          sRatio = Math.min(xRatio, yRatio);        
-        }       
-        else if(scaleType==2) {         
-          sRatio = Math.max(xRatio, yRatio);        
-        }     
-      }     
-      canvas.width = w*pRatio*sRatio;     
-      canvas.height = h*pRatio*sRatio;
-      canvas.style.width = dom_overlay_container.style.width = anim_container.style.width =  '100%';       
-      canvas.style.height = anim_container.style.height = dom_overlay_container.style.height = '100%';
-      stage.scaleX = pRatio*sRatio;     
-      stage.scaleY = pRatio*sRatio;     
-      lastW = iw; lastH = ih; lastS = sRatio;   
-    }
-  }
-  makeResponsive(true,'both',false,1);  
-  fnStartAnimation();
+	//This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
+	var queue = evt.target;
+	var ssMetadata = lib.ssMetadata;
+	for(i=0; i<ssMetadata.length; i++) {
+		ss[ssMetadata[i].name] = new createjs.SpriteSheet( {"images": [queue.getResult(ssMetadata[i].name)], "frames": ssMetadata[i].frames} )
+	}
+	exportRoot = new lib.Scene1();
+	stage = new createjs.Stage(canvas);
+	stage.addChild(exportRoot);	
+	//Registers the "tick" event listener.
+	fnStartAnimation = function() {
+		createjs.Ticker.setFPS(lib.properties.fps);
+		createjs.Ticker.addEventListener("tick", stage);
+	}	    
+	//Code to support hidpi screens and responsive scaling.
+	function makeResponsive(isResp, respDim, isScale, scaleType) {		
+		var lastW, lastH, lastS=1;		
+		window.addEventListener('resize', resizeCanvas);		
+		resizeCanvas();		
+		function resizeCanvas() {			
+			var w = lib.properties.width, h = lib.properties.height;			
+			var iw = window.innerWidth, ih=window.innerHeight;			
+			var pRatio = window.devicePixelRatio || 1, xRatio=iw/w, yRatio=ih/h, sRatio=1;			
+			if(isResp) {                
+				if((respDim=='width'&&lastW==iw) || (respDim=='height'&&lastH==ih)) {                    
+					sRatio = lastS;                
+				}				
+				else if(!isScale) {					
+					if(iw<w || ih<h)						
+						sRatio = Math.min(xRatio, yRatio);				
+				}				
+				else if(scaleType==1) {					
+					sRatio = Math.min(xRatio, yRatio);				
+				}				
+				else if(scaleType==2) {					
+					sRatio = Math.max(xRatio, yRatio);				
+				}			
+			}			
+			canvas.width = w*pRatio*sRatio;			
+			canvas.height = h*pRatio*sRatio;
+			canvas.style.width = dom_overlay_container.style.width = anim_container.style.width =  '100%';				
+			canvas.style.height = anim_container.style.height = dom_overlay_container.style.height = '100%';
+			stage.scaleX = pRatio*sRatio;			
+			stage.scaleY = pRatio*sRatio;			
+			lastW = iw; lastH = ih; lastS = sRatio;		
+		}
+	}
+	makeResponsive(true,'both',false,1);	
+	fnStartAnimation();
 }
