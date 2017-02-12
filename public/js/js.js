@@ -8,7 +8,6 @@ $(window).bind('scroll', function(){
     var offset = $(document).scrollTop()
         ,opacity=0.9;
     var targetOffset = $("#learning").offset().top;
-    var targetOffset2 = $("#schedule").offset().top;
     if( offset<=fadeStart ){
       opacity=0;
       fading.hide(); 
@@ -17,33 +16,12 @@ $(window).bind('scroll', function(){
     }
     if(offset>fadeStart){
       fading.show(); 
-      //$('body').animate({ backgroundColor: rgba(0,0,0,1) }, 0);
     }
-    //fade color
-    /*if(offset<targetOffset-200){
-      if(!$('body').is('.mcolor')){
-        $('body').attr('class','');
-        $('body').addClass('mcolor bganimate');
-      }
-    }else if(offset>targetOffset2-200){
-      if(!$('body').is('.black')){
-        $('body').attr('class','');
-        $('body').addClass('black bganimate');
-      }
-    }
-    else if(offset>targetOffset-200){
-      if(!$('body').is('.lcolor')){
-        $('body').attr('class','');
-        $('body').addClass('lcolor bganimate');
-      }
-    }*/
-    fading.css('background','rgba(255,255,255,' + opacity + ')');
+    fading.css('background','rgba(162, 36, 88,' + opacity + ')');
 });
 $(document).ready(function(){
   fading.hide();
-  $('#thief').addClass('thiefmove');
 	smoothScroll.init({speed:1000});
-	$('#whatcomcamp').parallax("50%",0.3);
 
   $('#learning .container .container img').hover(function(){
     $(this).attr('style','opacity:1');
@@ -59,6 +37,11 @@ $(document).ready(function(){
     $('[data-toggle="popover"]:eq(4)').attr('data-placement','left');
   } 
   $('[data-toggle="popover"]').popover();
+  var lanopt = $("#faq");
+
+  lanopt.on("show.bs.collapse",".collapse", function(){
+     lanopt.find(".collapse.in").collapse("hide");
+  });
   new WOW({
     offset:30
   }).init();

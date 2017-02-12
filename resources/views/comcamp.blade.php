@@ -18,7 +18,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>                      
       </button>
-      <div style="width: 160px;margin:0!important;padding: 0!important;text-align: center"><img src="img/navlogo.png" alt="comcamp29" style="float: left;height: 56px"><h1 style="font-size: 18px;float: left;">ComCamp</h1> </div>
+      <div style="width: 100px;margin:0!important;padding: 0!important;text-align: center"><img src="img/navlogo.png" alt="comcamp29" style="float: left;height: 56px;margin-left:10px"></div>
     </div>
     <div>
       <div class="collapse navbar-collapse" id="myNavbar">
@@ -38,10 +38,8 @@
   </div>
 </nav>    
 <div id="page">  
-  <div id="home" class="section">
-      <div id="whatcomcamp" class="wow zoomIn parallaxx"></div>
-      <!-- <div class="spotlight"></div>
-      <iframe src="./theif.html" frameborder="0" id="thief"></iframe> -->
+  <div id="home" class="section" align="center">
+      <img src="img/logo.png" width="80%" alt="">
   </div>
   <div id="comcamp" class="section">
     <div class="container">
@@ -56,7 +54,7 @@
       &emsp;&emsp;&emsp;มาลองสัมผัสความเป็นนักศึกษาวิศวะคอมพิวเตอร์ มาเรียนรู้ มาลงมือทำจริง ซึมซับประสบการณ์ใหม่ๆ และมาพับกบ เอ้ย! พบกับเพื่อนๆมากหน้าหลายตา และที่สำคัญค่ายนี้...ฟรีทั้งค่าย พี่ๆกำลังรอน้องๆมาเป็นส่วนหนึ่งของค่ายอยู่นะ รีบสมัครกันเข้ามาเยอะๆน้า</div>
           </div>
         </div>
-         <div data-wow-delay="0.8s" data-wow-duration="0.7s" class="col-md-6 wow flipInX bg" align="center"> 
+         <div data-wow-delay="0.8s" data-wow-duration="0.7s" class="col-md-6 wow flipInX bg marginTop" align="center"> 
          <div id="animation_container">
           <canvas id="canvas"></canvas>
           <div id="dom_overlay_container">
@@ -90,7 +88,7 @@
           </div>
           
         </div>
-        <div id="before" data-wow-delay="0.8s" data-wow-duration="0.7s" class="col-md-6 col-md-pull-6 wow flipInX bg" align="center"> 
+        <div id="before" data-wow-delay="0.8s" data-wow-duration="0.7s" class="col-md-6 col-md-pull-6 wow flipInX bg marginTop" align="center"> 
          <!-- <div id="animation_container2">
           <canvas id="canvas2"></canvas>
           <div id="dom_overlay_container2">
@@ -112,7 +110,7 @@
           <div class="submit wow pulse infinite" onclick="window.location='regis.php'">สมัครเลย !</div>
           </div><br>
         </div>
-         <div data-wow-delay="0.8s" data-wow-duration="0.7s" class="col-md-6 wow flipInX bg" align="center"> 
+         <div data-wow-delay="0.8s" data-wow-duration="0.7s" class="col-md-6 wow flipInX bg marginTop" align="center"> 
          <img src="./img/3.png" width="100%" alt="">   
         </div>
       </div>
@@ -131,19 +129,13 @@
             <div class="container">
               <div class="col1">
               <div style="border-bottom: 1px solid #666;padding-bottom: 5px;font-size: 19px">วันที่</div>
-              <div class="table1">5555</div>
-              <div class="table1">5555</div>
-              <div class="table1">5555</div>
-              <div class="table1">5555</div>
-              <div class="table1">5555</div>
+              <div class="table1">12/02/2017</div>
+              <div class="table1">05/03/2017</div>
               </div>
               <div class="col2">
               <div style="border-bottom: 1px solid #666;padding-bottom: 5px;font-size: 19px">กำหนดการ</div>
-              <div class="table2">5555</div>
-              <div class="table2">5555</div>
-              <div class="table2">5555</div>
-              <div class="table2">5555</div>
-              <div class="table2">5555</div>
+              <div class="table2">เปิดรับสมัครเข้าร่วมโครงการ</div>
+              <div class="table2">วันสุดท้ายในการสมัครเข้าร่วมโครงการ</div>
               </div>
               <div></div>
             </div>
@@ -151,7 +143,7 @@
           </div>
           
         </div>
-        <div id="before" data-wow-delay="0.8s" data-wow-duration="0.7s" class="col-md-6 col-md-pull-6 wow flipInX bg" align="center"> 
+        <div id="before" data-wow-delay="0.8s" data-wow-duration="0.7s" class="col-md-6 col-md-pull-6 wow flipInX bg marginTop" align="center"> 
          <img src="./img/4.png" width="100%" alt=""> 
         </div>
       </div>
@@ -166,36 +158,122 @@
           <!-- <h2 class="wow bounceInRight"  data-wow-delay="0.5s" data-wow-duration="0.7s">Comcamp 29th</h2> -->
           <div style=" width: 100%;">
             <div class="header">
-            <h3 align="right" style="color:#ddd;padding-right: 10%;padding-top: 25px">คำถามที่พบบ่อย (Q&A)</h3>
+            <h3 align="right" style="color:#ddd;padding-right: 10%;padding-top: 25px">คำถามที่พบบ่อย (FAQ)</h3>
             </div>
-            <div class="question container"  data-toggle="collapse" data-target=".answer:first">
-            <div class="content">
-            55555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555
-            </div>
-            <div class="who"> : Q</div>
-            </div>
-            <div class="answer container collapse">
-            <div class="content">
-            55555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555
-            </div>
-            <div class="who"> : A</div>
-            </div>
-            <div class="question container" data-toggle="collapse" data-target=".answer:last"">
-            <div class="content">
-            55555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555
-            </div>
-            <div class="who"> : Q</div>
-            </div>
-            <div class="answer container collapse">
-            <div class="content">
-            55555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555
-            </div>
-            <div class="who"> : A</div>
+            <div id="faq" class="accordion-group">
+              <div class="question container"  data-toggle="collapse" data-target="#ans1">
+              <div class="content">
+              ค่ายนี้รับสมัครระดับชั้นไหนบ้างครับ ?
+              </div>
+              <div class="who"> : Q</div>
+              </div>
+              <div id="ans1" class="answer container collapse">
+              <div class="content">
+              ค่ายคอมแคมป์รับเฉพาะน้องๆ ที่ศึกษาอยู่ในระดับชั้น ม.ปลาย ในปีการศึกษา 2559 ซึ่งก็คือ น้องๆ ม.4 ขี้น ม.5, ม.5 ขี้น ม.6 หรือน้องๆ ม.6 ที่กำลังเตรียมแอดมิชชั่นก็สมัครได้เช่นกันครับ
+              </div>
+              <div class="who"> : A</div>
+              </div>
+              <div class="question container" data-toggle="collapse" data-target="#ans2">
+              <div class="content">
+              สามารถส่งใบสมัครได้ทางไหนบ้างคะ ?
+              </div>
+              <div class="who"> : Q</div>
+              </div>
+              <div id="ans2" class="answer container collapse">
+              <div class="content">
+              การรับสมัครและส่งใบสมัคร จะมีอยู่ 3 ช่องทางด้วยกัน คือ สมัครผ่านเว็บไซต์ http://www.comcamp.in.th ส่งใบสมัครมาทางไปรษณีย์ หรือสามารถส่งใบสมัครมาทาง email register@comcamp.in.th ก็ได้เช่นกันครับ 
+              </div>
+              <div class="who"> : A</div>
+              </div>
+              <div class="question container"  data-toggle="collapse" data-target="#ans3">
+              <div class="content">
+              เกรดหนูไม่ค่อยดีเลยค่ะ สามารถสมัครค่ายนี้ได้ไหมคะ ?
+              </div>
+              <div class="who"> : Q</div>
+              </div>
+              <div id="ans3" class="answer container collapse">
+              <div class="content">
+              สมัครได้ครับ ขอแค่น้องๆมีคุณสมบัติตามที่ระบุไว้ และมีความสนใจในด้านคอมพิวเตอร์ ก็สามารถสมัครเข้าร่วมโครงการได้ครับ
+              </div>
+              <div class="who"> : A</div>
+              </div>
+              <div class="question container"  data-toggle="collapse" data-target="#ans4">
+              <div class="content">
+              หนูไม่ค่อยมีความรู้เกี่ยวกับคอมพิวเตอร์ จะเข้าค่ายนี้ได้ไหมคะ ?
+              </div>
+              <div class="who"> : Q</div>
+              </div>
+              <div id="ans4" class="answer container collapse">
+              <div class="content">
+              ได้ครับ เพราะค่ายคอมแคมป์เป็นโครงการที่มีวัตถุประสงค์เพื่อแนะนำการเรียนการสอนและการปฏิบัติเชิงคอมพิวเตอร์อยู่แล้ว ขอแค่น้องๆมีคุณสมบัติตามที่ระบุไว้ และมีความสนใจในด้านคอมพิวเตอร์ ก็สามารถสมัครเข้าร่วมโครงการได้ครับ
+              </div>
+              <div class="who"> : A</div>
+              </div>
+              <div class="question container"  data-toggle="collapse" data-target="#ans5">
+              <div class="content">
+              ผมเป็นเด็กต่างจังหวัด ถ้าจะเดินทางมาค่ายนี้ จะมีคำแนะนำไหมครับ ?
+              </div>
+              <div class="who"> : Q</div>
+              </div>
+              <div id="ans5" class="answer container collapse">
+              <div class="content">
+              หากน้องๆเดินทางมาจากต่างจังหวัด น้องๆสามารถระบุจุดนัดพบ ตามที่ระบุไว้ในใบสมัคร และในวันเข้าร่วมโครงการ (วันที่ 11 เมษายน 2559) จะมีพวกพี่ๆไปดูแลและอำนวยความสะดวกในการเดินทางครับ 
+              </div>
+              <div class="who"> : A</div>
+              </div>
+              <div class="question container"  data-toggle="collapse" data-target="#ans6">
+              <div class="content">
+              ค่ายนี้ต้องค้างคืนไหมคะ ?
+              </div>
+              <div class="who"> : Q</div>
+              </div>
+              <div id="ans6" class="answer container collapse">
+              <div class="content">
+              ใช่ครับ เพื่อให้น้องๆสะดวกต่อการทำกิจกรรม พี่ๆจึงจัดให้น้องๆได้เข้าพักในหอพักนักศึกษา ซึ่งสะดวกสบายและง่ายต่อการทำกิจกรรมของน้องๆ และที่สำคัญ พี่ๆจะดูแลน้องได้ตลอด 24 ชั่วโมงตลอดโครงการ น้องๆสบายใจได้ครับ 
+              </div>
+              <div class="who"> : A</div>
+              </div>
+              <div class="question container"  data-toggle="collapse" data-target="#ans7">
+              <div class="content">
+              เอกสารที่จะต้องใช้ในการสมัครมีอะไรบ้างครับ ?
+              </div>
+              <div class="who"> : Q</div>
+              </div>
+              <div id="ans7" class="answer container collapse">
+              <div class="content">
+              เอกสารที่ใช้ในการสมัครโครงการ น้องๆสามารถเข้าไปดูรายละเอียดเพิ่มเติมได้ที่หน้ากรอกข้อมูลเลยครับ
+              </div>
+              <div class="who"> : A</div>
+              </div>
+              <div class="question container"  data-toggle="collapse" data-target="#ans8">
+              <div class="content">
+              ค่ายจัดขึ้นที่ไหนครับ ?
+              </div>
+              <div class="who"> : Q</div>
+              </div>
+              <div id="ans8" class="answer container collapse">
+              <div class="content">
+              ตลอดระยะเวลาของโครงการ ภายในมหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี ตลอดทั้ง 5 วันครับ
+              </div>
+              <div class="who"> : A</div>
+              </div>
+              <div class="question container"  data-toggle="collapse" data-target="#ans9">
+              <div class="content">
+              ค่ายนี้มีค่าใช้จ่ายอะไรบ้างคะ ?
+              </div>
+              <div class="who"> : Q</div>
+              </div>
+              <div id="ans9" class="answer container collapse">
+              <div class="content">
+              โครงการนี้ ฟรี ! ตลอดทั้งโครงการครับ ขอเพียงน้องๆเตรียมพร้อมทั้งตัวและหัวใจ มาพบกับเพื่อนๆและพี่ๆในค่ายก็พอครับ
+              </div>
+              <div class="who"> : A</div>
+              </div>
+              </div>
+              </div>
             </div>
           </div>
-        </div>
-        </div>
-         <div data-wow-delay="0.8s" data-wow-duration="0.7s" class="col-md-6 wow flipInX bg" align="right"> 
+         <div data-wow-delay="0.8s" data-wow-duration="0.7s" class="col-md-6 wow flipInX bg marginTop" align="right" style="padding-top: 40px;"> 
          <img src="./img/5.png" width="100%" alt="">   
         </div>
       </div>
@@ -252,9 +330,9 @@
           </div>
           
         </div>
-        <div id="before" data-wow-delay="0.8s" data-wow-duration="0.7s" class="col-md-6 col-md-pull-6 wow flipInX" align="center" style="height: 580px"> 
-        <div style="margin-top: 100px">
-         <img src="./img/com.png" height="300px"> 
+        <div id="before" data-wow-delay="0.8s" data-wow-duration="0.7s" class="col-md-6 col-md-pull-6 wow flipInX marginTop" align="center" style="height: auto"> 
+        <div style="margin-top:150px">
+         <img src="./img/com.png" width="80%"> 
          <img src="./img/table.png" width="100%"> 
         </div>
         </div>
@@ -263,7 +341,7 @@
 </div>
 <div class="space section"> 
     <div class="footer">
-     <div class="container" style="height: 100%;display: flex; align-items: center;justify-content: center;color:#fff;background-color: #282828;">
+     <div class="container" style="height: 100%;display: flex; align-items: center;justify-content: center;color:#fff;background-color: #231f20;">
      © 2016 Comcamp 29th All Rights Reserved. Designed and developed by CPE#30
      </div>
     </div>
@@ -271,9 +349,7 @@
 </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax-min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-  <script src="https://npmcdn.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  <script src="./js/wow.min.js"></script>
   <script src="./js/smooth-scroll.min.js"></script>
   <script src="./js/scrolling.js"></script>
   <script src="./js/js.js"></script>

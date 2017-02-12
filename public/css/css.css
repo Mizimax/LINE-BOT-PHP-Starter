@@ -10,7 +10,6 @@
       overflow: visible !important;
       max-width: 100%;
       overflow-x: hidden !important;
-      background-color:#11182b;
       background: #11182b; /* For browsers that do not support gradients */
       background: -webkit-linear-gradient(#11182b, #744d57); /* For Safari 5.1 to 6.0 */
       background: -o-linear-gradient(#11182b, #744d57); /* For Opera 11.1 to 12.0 */
@@ -22,11 +21,11 @@
     color:#fff;
     word-wrap: break-word;height: auto;
     background-color: transparent !important;
-    padding-top: 80px;
+    padding-top: 100px;
   }
   #home{
     background-color:#11182b;
-    height: 520px;
+    height: auto;
     padding-top: 0 !important;
   }
   #comcamp{background-color: #ccc;}
@@ -56,7 +55,7 @@
     position: absolute; 
    bottom: 0;
     z-index: 99;
-    background-color: #282828;
+    background-color: #231f20;
   }
   p{
     font-size:18px;
@@ -140,22 +139,22 @@ ul{
     background: rgba(0, 0, 0, 0.7);
   }
   .navbar .navbar-nav li a:hover {
-    color:#fff;
-    background-color: #11182b;
+    color:#a22458;
+    background-color: #fff;
   }
   .navbar .navbar-nav li a {
-    color:#11182b;
+    color:#fff;
   }
   .navbar .navbar-header a.navbar-brand:hover {
-    color:#11182b;
+    color:#fff;
   }
   .navbar .navbar-header a.navbar-brand {
-    color:#11182b;
+    color:#fff;
     /*padding-top:25px !important; padding-bottom:25px !important;*/
   }
   .nav li.active a, .nav li.active a:focus, .nav>li.active a:hover {
-    color: white !important;
-    background-color: #11182b !important;
+    color: #a22458 !important;
+    background-color: #fff !important;
   }
   .navbar-nav li a {
     padding-top:18px !important; 
@@ -207,20 +206,24 @@ ul{
   }
   .question{
     width: 100%;
+    height: auto;
     padding-top: 12.5px;
+    padding-bottom: 12.5px;
     font-size: 15px;
     background: rgba(255,255,255,0.7);
     color:rgb(17, 24, 43);
     word-wrap: break-word;
   }
   .question:hover{
-    background: orange;
+    background: #a22458;
     color:white;
     cursor: pointer;
   }
   .answer{
     width: 100%;
+    height: auto;
     padding-top: 12.5px;
+    padding-bottom: 12.5px;
     font-size: 15px;
     background: #1F2C4E;
     color:#ddd;
@@ -245,12 +248,12 @@ ul{
     -moz-border-radius: 15px 15px 0 0;
   }
   .col1{
-    width: 18%;
+    width: auto;
     float: left;
     margin-right: 2%;
   }
   .col2{
-    width: 80%;
+    width: 70%;
     float: left;
     padding-bottom: 10px;
   }
@@ -267,7 +270,7 @@ ul{
     border-bottom: 1px dashed #666;
   }
   .table2:hover{
-    background: orange;
+    background: #a22458;
     color:white;
   }
   .conicon{
@@ -285,8 +288,12 @@ ul{
     margin-top: 20px;
   }
   .space{
-    height: 400px;
+    height: 500px;
   }
   .popover{
     width: 500px;
+  }
+  .space{
+    background: url('../img/bottom.png') no-repeat;
+    background-position: bottom;
   }
