@@ -10,9 +10,10 @@
       background: linear-gradient(#11182b, #744d57); /* Standard syntax */
     }
   .section{
-    position: relative;
+    /*position: relative;*/
     color:#fff;
-    word-wrap: break-word;height: auto;
+    word-wrap: break-word;
+    height: auto;
     background-color: transparent !important;
     padding-top: 100px;
   }

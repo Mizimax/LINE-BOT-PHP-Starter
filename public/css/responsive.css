@@ -19,6 +19,9 @@
     .marginTop{
       padding-top: 100px!important;
     }
+    #home{
+      height: auto;
+    }
   }
 @media (max-width: 965px) {
   .navbar-header {

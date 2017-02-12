@@ -56,7 +56,7 @@
           </div>
         </div>
          <div data-wow-delay="0.8s" data-wow-duration="0.7s" class="col-md-6 wow flipInX bg marginTop" align="center"> 
-         <img src="./img/1.gif" height="500px">
+         <img src="./img/1.gif" width="80%">
         </div>
       </div>
     </div>
@@ -91,7 +91,7 @@
           <div id="dom_overlay_container2">
           </div>
         </div> -->
-       <img src="./img/2.gif" height="500px">
+       <img src="./img/2.gif" width="80%">
       </div>
     </div>
   </div>
@@ -104,12 +104,12 @@
           <div class="wow fadeInUp"  data-wow-delay="0.4s" data-wow-duration="0.7s" align="center" style="margin-top: 30px;">
           <!-- <h2 class="wow bounceInRight"  data-wow-delay="0.5s" data-wow-duration="0.7s">Comcamp 29th</h2> -->
           <div class="submit wow pulse infinite" onclick="window.location='login.php'">สมัครออนไลน์<br>คลิกเลย !</div>
-        <br><br><br> <p style="font-size: 24px">หรือ</p> <p>ถ้าเน็ตไม่เป็นใจ สามารถดาวน์โหลดใบสมัครแทนได้นะ</p> 
+        <br><br><br> <p style="font-size: 24px">หรือ</p> <p>ถ้าเน็ตไม่เป็นใจ สามารถดาวน์โหลดใบสมัคร แล้วส่งมาทางไปรษณีย์แทนได้นะ</p> 
           <div class="submit wow fadeInUp" style="background: green;" onclick="window.location='registration-form.pdf'">ดาวน์โหลดใบสมัคร</div>
           </div><br>
         </div>
          <div data-wow-delay="0.8s" data-wow-duration="0.7s" class="col-md-6 wow flipInX bg marginTop" align="center"> 
-         <img src="./img/3.gif" height="500px">
+         <img src="./img/3.gif" width="80%">
         </div>
       </div>
     </div>
@@ -144,7 +144,7 @@
           
         </div>
         <div id="before" data-wow-delay="0.8s" data-wow-duration="0.7s" class="col-md-6 col-md-pull-6 wow flipInX bg marginTop" align="center"> 
-          <img src="./img/4.gif" height="500px">
+          <img src="./img/4.gif" width="80%">
         </div>
       </div>
     </div>
@@ -165,116 +165,116 @@
               <div class="content">
               ค่ายนี้รับสมัครระดับชั้นไหนบ้างครับ ?
               </div>
-              <div class="who">Q : </div>
+              <div class="who">Q :</div>
               </div>
               <div id="ans1" class="answer container collapse">
               <div class="content">
               ค่ายคอมแคมป์รับเฉพาะน้องๆ ที่ศึกษาอยู่ในระดับชั้น ม.ปลาย ในปีการศึกษา 2559 ซึ่งก็คือ น้องๆ ม.4 ขี้น ม.5, ม.5 ขี้น ม.6 หรือน้องๆ ม.6 ที่กำลังเตรียมแอดมิชชั่นก็สมัครได้เช่นกันครับ
               </div>
-              <div class="who">A : </div>
+              <div class="who">A :</div>
               </div>
               <div class="question container" data-toggle="collapse" data-target="#ans2">
               <div class="content">
               สามารถส่งใบสมัครได้ทางไหนบ้างคะ ?
               </div>
-              <div class="who">Q : </div>
+              <div class="who">Q :</div>
               </div>
               <div id="ans2" class="answer container collapse">
               <div class="content">
               การรับสมัครและส่งใบสมัคร จะมีอยู่ 3 ช่องทางด้วยกัน คือ สมัครผ่านเว็บไซต์ http://www.comcamp.in.th ส่งใบสมัครมาทางไปรษณีย์ หรือสามารถส่งใบสมัครมาทาง email register@comcamp.in.th ก็ได้เช่นกันครับ 
               </div>
-              <div class="who">A : </div>
+              <div class="who">A :</div>
               </div>
               <div class="question container"  data-toggle="collapse" data-target="#ans3">
               <div class="content">
               เกรดหนูไม่ค่อยดีเลยค่ะ สามารถสมัครค่ายนี้ได้ไหมคะ ?
               </div>
-              <div class="who">Q : </div>
+              <div class="who">Q :</div>
               </div>
               <div id="ans3" class="answer container collapse">
               <div class="content">
               สมัครได้ครับ ขอแค่น้องๆมีคุณสมบัติตามที่ระบุไว้ และมีความสนใจในด้านคอมพิวเตอร์ ก็สามารถสมัครเข้าร่วมโครงการได้ครับ
               </div>
-              <div class="who">A : </div>
+              <div class="who">A :</div>
               </div>
               <div class="question container"  data-toggle="collapse" data-target="#ans4">
               <div class="content">
               หนูไม่ค่อยมีความรู้เกี่ยวกับคอมพิวเตอร์ จะเข้าค่ายนี้ได้ไหมคะ ?
               </div>
-              <div class="who">Q : </div>
+              <div class="who">Q :</div>
               </div>
               <div id="ans4" class="answer container collapse">
               <div class="content">
               ได้ครับ เพราะค่ายคอมแคมป์เป็นโครงการที่มีวัตถุประสงค์เพื่อแนะนำการเรียนการสอนและการปฏิบัติเชิงคอมพิวเตอร์อยู่แล้ว ขอแค่น้องๆมีคุณสมบัติตามที่ระบุไว้ และมีความสนใจในด้านคอมพิวเตอร์ ก็สามารถสมัครเข้าร่วมโครงการได้ครับ
               </div>
-              <div class="who">A : </div>
+              <div class="who">A :</div>
               </div>
               <div class="question container"  data-toggle="collapse" data-target="#ans5">
               <div class="content">
               ผมเป็นเด็กต่างจังหวัด ถ้าจะเดินทางมาค่ายนี้ จะมีคำแนะนำไหมครับ ?
               </div>
-              <div class="who">Q : </div>
+              <div class="who">Q :</div>
               </div>
               <div id="ans5" class="answer container collapse">
               <div class="content">
               หากน้องๆเดินทางมาจากต่างจังหวัด น้องๆสามารถระบุจุดนัดพบ ตามที่ระบุไว้ในใบสมัคร และในวันเข้าร่วมโครงการ จะมีพวกพี่ๆไปดูแลและอำนวยความสะดวกในการเดินทางครับ 
               </div>
-              <div class="who">A : </div>
+              <div class="who">A :</div>
               </div>
               <div class="question container"  data-toggle="collapse" data-target="#ans6">
               <div class="content">
               ค่ายนี้ต้องค้างคืนไหมคะ ?
               </div>
-              <div class="who">Q : </div>
+              <div class="who">Q :</div>
               </div>
               <div id="ans6" class="answer container collapse">
               <div class="content">
               ใช่ครับ เพื่อให้น้องๆสะดวกต่อการทำกิจกรรม พี่ๆจึงจัดให้น้องๆได้เข้าพักในหอพักนักศึกษา ซึ่งสะดวกสบายและง่ายต่อการทำกิจกรรมของน้องๆ และที่สำคัญ พี่ๆจะดูแลน้องได้ตลอด 24 ชั่วโมงตลอดโครงการ น้องๆสบายใจได้ครับ 
               </div>
-              <div class="who">A : </div>
+              <div class="who">A :</div>
               </div>
               <div class="question container"  data-toggle="collapse" data-target="#ans7">
               <div class="content">
               เอกสารที่จะต้องใช้ในการสมัครมีอะไรบ้างครับ ?
               </div>
-              <div class="who">Q : </div>
+              <div class="who">Q :</div>
               </div>
               <div id="ans7" class="answer container collapse">
               <div class="content">
               เอกสารที่ใช้ในการสมัครโครงการ น้องๆสามารถเข้าไปดูรายละเอียดเพิ่มเติมได้ที่หน้ากรอกข้อมูลเลยครับ
               </div>
-              <div class="who">A : </div>
+              <div class="who">A :</div>
               </div>
               <div class="question container"  data-toggle="collapse" data-target="#ans8">
               <div class="content">
               ค่ายจัดขึ้นที่ไหนครับ ?
               </div>
-              <div class="who">Q : </div>
+              <div class="who">Q :</div>
               </div>
               <div id="ans8" class="answer container collapse">
               <div class="content">
               ตลอดระยะเวลาของโครงการ ภายในมหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี ตลอดทั้ง 5 วันครับ
               </div>
-              <div class="who">A : </div>
+              <div class="who">A :</div>
               </div>
               <div class="question container"  data-toggle="collapse" data-target="#ans9">
               <div class="content">
               ค่ายนี้มีค่าใช้จ่ายอะไรบ้างคะ ?
               </div>
-              <div class="who">Q : </div>
+              <div class="who">Q :</div>
               </div>
               <div id="ans9" class="answer container collapse">
               <div class="content">
               โครงการนี้ ฟรี ! ตลอดทั้งโครงการครับ ขอเพียงน้องๆเตรียมพร้อมทั้งตัวและหัวใจ มาพบกับเพื่อนๆและพี่ๆในค่ายก็พอครับ
               </div>
-              <div class="who">A : </div>
+              <div class="who">A :</div>
               </div>
               </div>
               </div>
             </div>
           </div>
-         <div data-wow-delay="0.8s" data-wow-duration="0.7s" class="col-md-6 wow flipInX bg marginTop" align="right" style="padding-top: 40px;"> 
-          <img src="./img/5.gif" height="500px">
+         <div data-wow-delay="0.8s" data-wow-duration="0.7s" class="col-md-6 wow flipInX bg marginTop" align="center" style="padding-top: 40px;"> 
+          <img src="./img/5.gif" width="80%">
         </div>
       </div>
     </div>
@@ -283,7 +283,7 @@
     <div class="container">
       <div class="row">
        
-        <div class="col-md-5" align="center">
+        <div class="col-md-5 wow bounceInLeft" align="center">
           <div align="right" class="text" style="font-size: 30px">ติดตามข่าวสาร<br>
           หรือสอบถามข้อมูลได้ที่
           </div>
@@ -332,15 +332,15 @@
         <div id="before" data-wow-delay="0.8s" data-wow-duration="0.7s" class="col-md-6 col-md-pull-6 wow flipInX marginTop" align="center" style="height: auto"> 
         <div style="margin-top:150px;width: 100%;height: 100%">
          <div class="vid"><iframe style="padding-top: 15px;" width="370" height="225px" src="https://www.youtube.com/embed/BcHm8s0beHk?rel=0&controls=0&showinfo=0" frameborder="0" allowfullscreen></iframe></div>
-         <img src="./img/table.png" width="100%"> 
+         <img src="./img/table.png" width="80%"> 
         </div>
         </div>
       </div>
     </div>
 </div>
-<div class="space section"> 
+<div class="space section" style="position: relative;overflow: hidden;"> 
     <div class="footer">
-     <div class="container"  style="height: 100%;padding-top:15px;color:#fff;background-color: #231f20;">
+     <div class="container"  style="height: 100%;color:#fff;padding-top:20px;background-color: #231f20;">
      © 2016 Comcamp 29th All Rights Reserved. Designed and developed by CPE#30
      </div>
     </div>
