@@ -10,14 +10,6 @@
   <link rel="stylesheet" href="./css/animate.min.css">
 </head>
 <body onload="init();" style="margin:0px;" data-spy="scroll" data-target=".navbar" data-offset="50">
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/th_TH/sdk.js#xfbml=1&version=v2.8&appId=1528156984120005";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
 <nav class="navbar navbar-inverse navbar-fixed-top" id="background">
   <div class="container" >
     <div class="navbar-header">
@@ -289,6 +281,14 @@
   <script src="./js/Scene1.js"></script> 
   <!-- <script src="./js/Scene2.js"></script> -->
   <script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/th_TH/sdk.js#xfbml=1&version=v2.8&appId=1528156984120005";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <!--   <script src="./js/thief.js"></script> -->
 </body>
 </html>
