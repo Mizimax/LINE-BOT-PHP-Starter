@@ -350,8 +350,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="./js/wow.min.js"></script>
-  <!-- <script src="./js/smooth-scroll.min.js"></script> -->
-  <script src="./js/scrolling.js"></script>
+  <script src="./js/smooth-scroll.min.js"></script>
+  <!-- <script src="./js/scrolling.js"></script> -->
   <script src="./js/js.js"></script>
   <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
   <script src="./js/Scene1.js"></script> 
