@@ -1,12 +1,5 @@
-  @font-face {
-    font-family: 'Circular';
-    src: url('Circular.eot');
-    src: url('Circular.eot?#iefix') format('embedded-opentype'),
-    url('Circular.woff') format('woff'),
-    url('Circular.ttf') format('truetype'),
-    url('Circular.svg') format('svg');
-  }
-  body,html{
+ body,html{
+      font-family: 'Mitr', sans-serif;
       overflow: visible !important;
       max-width: 100%;
       overflow-x: hidden !important;
@@ -197,9 +190,10 @@ ul{
     -webkit-transition: all 10s;
     -moz-transition: all 10s;
   }
-  #vid:hover{
-    width: 100%;
-    height: 350px;
+  .vid{
+    height: 300px;
+    background: url('../img/com.png') 50% 0% no-repeat;
+    background-size: 400px;
   }
   .bg{
     margin-top: -50px;

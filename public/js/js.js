@@ -21,6 +21,7 @@ $(window).bind('scroll', function(){
 });
 $(document).ready(function(){
   fading.hide();
+	smoothScroll.init({speed:1000});
 
   $('#learning .container .container img').hover(function(){
     $(this).attr('style','opacity:1');

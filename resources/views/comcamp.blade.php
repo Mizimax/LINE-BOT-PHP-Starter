@@ -4,12 +4,13 @@
   <title>ComCamp#29</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Mitr:200" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="./css/css.css">
   <link rel="stylesheet" href="./css/responsive.css">
   <link rel="stylesheet" href="./css/animate.min.css">
 </head>
-<body onload="init();" style="margin:0px;" data-spy="scroll" data-target=".navbar" data-offset="50">
+<body style="margin:0px;" data-spy="scroll" data-target=".navbar" data-offset="50">
 <nav class="navbar navbar-inverse navbar-fixed-top" id="background">
   <div class="container" >
     <div class="navbar-header">
@@ -27,7 +28,7 @@
           <li><a data-scroll href="#comcamp">What</a></li>
           <li><a data-scroll href="#learning">Learning</a></li>
           <li><a data-scroll href="#schedule">Schedule</a></li>
-          <li><a data-scroll href="#qanda">Q&A</a></li>
+          <li><a data-scroll href="#qanda">FAQ</a></li>
           <li><a data-scroll href="#contact">Contact</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
@@ -39,7 +40,7 @@
 </nav>    
 <div id="page">  
   <div id="home" class="section" align="center">
-      <img src="img/logo.png" id="logo" width="80%" alt="">
+      <img src="img/logo.png" class="wow zoomIn" data-wow-duration="1.5s" wow id="logo" style="width: 50%" alt="">
   </div>
   <div id="comcamp" class="section">
     <div class="container">
@@ -55,11 +56,7 @@
           </div>
         </div>
          <div data-wow-delay="0.8s" data-wow-duration="0.7s" class="col-md-6 wow flipInX bg marginTop" align="center"> 
-         <div id="animation_container">
-          <canvas id="canvas"></canvas>
-          <div id="dom_overlay_container">
-          </div>
-        </div>
+         <iframe src="Scene1.html" height="500" width="500" frameBorder="0" scrolling="no"></iframe>
         </div>
       </div>
     </div>
@@ -88,14 +85,13 @@
           </div>
           
         </div>
-        <div id="before" data-wow-delay="0.8s" data-wow-duration="0.7s" class="col-md-6 col-md-pull-6 wow flipInX bg marginTop" align="center"> 
+        <div id="before" data-wow-delay="0.8s" data-wow-duration="0.7s" class="col-md-6 col-md-pull-6 wow flipInX bg marginTop" align="center" style="margin-top:10px"> 
          <!-- <div id="animation_container2">
           <canvas id="canvas2"></canvas>
           <div id="dom_overlay_container2">
           </div>
         </div> -->
-        <img src="./img/2.png" width="100%" alt=""> 
-        </div>
+        <iframe src="Scene2.html" height="500" width="500" frameBorder="0" scrolling="no"></iframe>
       </div>
     </div>
   </div>
@@ -104,14 +100,16 @@
       <div class="row">
        
         <div class="col-md-6" align="center">
-          <h1 align="center" class="wow tada" style="color:#ddd;padding-top: 60px">เปิดรับสมัครแล้ว !!</h1>
+          <h1 align="center" class="wow tada" style="color:#ddd;">เปิดรับสมัครแล้ว !!</h1>
           <div class="wow fadeInUp"  data-wow-delay="0.4s" data-wow-duration="0.7s" align="center" style="margin-top: 30px;">
           <!-- <h2 class="wow bounceInRight"  data-wow-delay="0.5s" data-wow-duration="0.7s">Comcamp 29th</h2> -->
-          <div class="submit wow pulse infinite" onclick="window.location='regis.php'">สมัครเลย !</div>
+          <div class="submit wow pulse infinite" onclick="window.location='login.php'">สมัครออนไลน์<br>คลิกเลย !</div>
+        <br><br><br> <p style="font-size: 24px">หรือ</p> <p>ถ้าเน็ตไม่เป็นใจ สามารถดาวน์โหลดใบสมัครแทนได้นะ</p> 
+          <div class="submit wow fadeInUp" style="background: green;" onclick="window.location='registration-form.pdf'">ดาวน์โหลดใบสมัคร</div>
           </div><br>
         </div>
          <div data-wow-delay="0.8s" data-wow-duration="0.7s" class="col-md-6 wow flipInX bg marginTop" align="center"> 
-         <img src="./img/3.png" style="width: 50%" alt="">   
+         <iframe src="Scene3.html" height="500" width="500" frameBorder="0" scrolling="no"></iframe>  
         </div>
       </div>
     </div>
@@ -144,7 +142,7 @@
           
         </div>
         <div id="before" data-wow-delay="0.8s" data-wow-duration="0.7s" class="col-md-6 col-md-pull-6 wow flipInX bg marginTop" align="center"> 
-         <img src="./img/4.png" width="100%" alt=""> 
+          <iframe src="Scene4.html" height="500" width="500" frameBorder="0" scrolling="no"></iframe>
         </div>
       </div>
     </div>
@@ -274,7 +272,7 @@
             </div>
           </div>
          <div data-wow-delay="0.8s" data-wow-duration="0.7s" class="col-md-6 wow flipInX bg marginTop" align="right" style="padding-top: 40px;"> 
-         <img src="./img/5.png" width="100%" alt="">   
+          <iframe src="Scene5.html" height="500" width="500" frameBorder="0" scrolling="no"></iframe>  
         </div>
       </div>
     </div>
@@ -318,21 +316,20 @@
           <div class="condetail">
           พี่นนท์ : 096-3061332<br>
           พี่พู : 095-7588902<br>
-          พี่มินโตะ : 088-2962355<br>
+          พี่มิ้นโตะ : 088-2962355<br>
           พี่เฌอแตม : 085-9400984<br>
-          พี่โอม : 096-0048307
           </div>
           </div>
           <div class="container conhead">
           <div class="conicon"><img src="img/location.png"></div>
-          <div class="condetail">คณะวิศวกรรมศาสตร์<br>มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี<br><br>ชั้น10 อาคารวิศวะวัฒนะ 126 ถ.ประขาอุทิศ<br>แขวงบางมด เขตทุ่งครุ กรุงเทพฯ 10140</div>
+          <div class="condetail">คณะวิศวกรรมศาสตร์<br>มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี<br><br>ชั้น10 อาคารวิศวะวัฒนะ 126 ถ.ประชาอุทิศ<br>แขวงบางมด เขตทุ่งครุ กรุงเทพฯ 10140</div>
           </div>
           </div>
           
         </div>
         <div id="before" data-wow-delay="0.8s" data-wow-duration="0.7s" class="col-md-6 col-md-pull-6 wow flipInX marginTop" align="center" style="height: auto"> 
-        <div style="margin-top:150px">
-         <img src="./img/com.png" width="80%"> 
+        <div style="margin-top:150px;width: 100%;height: 100%">
+         <div class="vid"><iframe style="padding-top: 15px;" width="370" height="225px" src="https://www.youtube.com/embed/BcHm8s0beHk" frameborder="0" allowfullscreen></iframe></div>
          <img src="./img/table.png" width="100%"> 
         </div>
         </div>
@@ -351,11 +348,8 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="./js/wow.min.js"></script>
   <script src="./js/smooth-scroll.min.js"></script>
-  <!-- <script src="./js/scrolling.js"></script> -->
   <script src="./js/js.js"></script>
   <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
-  <script src="./js/Scene1.js"></script> 
-  <!-- <script src="./js/Scene2.js"></script> -->
   <script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
   <div id="fb-root"></div>
 <script>(function(d, s, id) {
