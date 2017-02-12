@@ -39,7 +39,7 @@
 </nav>    
 <div id="page">  
   <div id="home" class="section" align="center">
-      <img src="img/logo.png" width="80%" alt="">
+      <img src="img/logo.png" id="logo" width="80%" alt="">
   </div>
   <div id="comcamp" class="section">
     <div class="container">
@@ -165,109 +165,109 @@
               <div class="content">
               ค่ายนี้รับสมัครระดับชั้นไหนบ้างครับ ?
               </div>
-              <div class="who"> : Q</div>
+              <div class="who">Q : </div>
               </div>
               <div id="ans1" class="answer container collapse">
               <div class="content">
               ค่ายคอมแคมป์รับเฉพาะน้องๆ ที่ศึกษาอยู่ในระดับชั้น ม.ปลาย ในปีการศึกษา 2559 ซึ่งก็คือ น้องๆ ม.4 ขี้น ม.5, ม.5 ขี้น ม.6 หรือน้องๆ ม.6 ที่กำลังเตรียมแอดมิชชั่นก็สมัครได้เช่นกันครับ
               </div>
-              <div class="who"> : A</div>
+              <div class="who">A : </div>
               </div>
               <div class="question container" data-toggle="collapse" data-target="#ans2">
               <div class="content">
               สามารถส่งใบสมัครได้ทางไหนบ้างคะ ?
               </div>
-              <div class="who"> : Q</div>
+              <div class="who">Q : </div>
               </div>
               <div id="ans2" class="answer container collapse">
               <div class="content">
               การรับสมัครและส่งใบสมัคร จะมีอยู่ 3 ช่องทางด้วยกัน คือ สมัครผ่านเว็บไซต์ http://www.comcamp.in.th ส่งใบสมัครมาทางไปรษณีย์ หรือสามารถส่งใบสมัครมาทาง email register@comcamp.in.th ก็ได้เช่นกันครับ 
               </div>
-              <div class="who"> : A</div>
+              <div class="who">A : </div>
               </div>
               <div class="question container"  data-toggle="collapse" data-target="#ans3">
               <div class="content">
               เกรดหนูไม่ค่อยดีเลยค่ะ สามารถสมัครค่ายนี้ได้ไหมคะ ?
               </div>
-              <div class="who"> : Q</div>
+              <div class="who">Q : </div>
               </div>
               <div id="ans3" class="answer container collapse">
               <div class="content">
               สมัครได้ครับ ขอแค่น้องๆมีคุณสมบัติตามที่ระบุไว้ และมีความสนใจในด้านคอมพิวเตอร์ ก็สามารถสมัครเข้าร่วมโครงการได้ครับ
               </div>
-              <div class="who"> : A</div>
+              <div class="who">A : </div>
               </div>
               <div class="question container"  data-toggle="collapse" data-target="#ans4">
               <div class="content">
               หนูไม่ค่อยมีความรู้เกี่ยวกับคอมพิวเตอร์ จะเข้าค่ายนี้ได้ไหมคะ ?
               </div>
-              <div class="who"> : Q</div>
+              <div class="who">Q : </div>
               </div>
               <div id="ans4" class="answer container collapse">
               <div class="content">
               ได้ครับ เพราะค่ายคอมแคมป์เป็นโครงการที่มีวัตถุประสงค์เพื่อแนะนำการเรียนการสอนและการปฏิบัติเชิงคอมพิวเตอร์อยู่แล้ว ขอแค่น้องๆมีคุณสมบัติตามที่ระบุไว้ และมีความสนใจในด้านคอมพิวเตอร์ ก็สามารถสมัครเข้าร่วมโครงการได้ครับ
               </div>
-              <div class="who"> : A</div>
+              <div class="who">A : </div>
               </div>
               <div class="question container"  data-toggle="collapse" data-target="#ans5">
               <div class="content">
               ผมเป็นเด็กต่างจังหวัด ถ้าจะเดินทางมาค่ายนี้ จะมีคำแนะนำไหมครับ ?
               </div>
-              <div class="who"> : Q</div>
+              <div class="who">Q : </div>
               </div>
               <div id="ans5" class="answer container collapse">
               <div class="content">
-              หากน้องๆเดินทางมาจากต่างจังหวัด น้องๆสามารถระบุจุดนัดพบ ตามที่ระบุไว้ในใบสมัคร และในวันเข้าร่วมโครงการ (วันที่ 11 เมษายน 2559) จะมีพวกพี่ๆไปดูแลและอำนวยความสะดวกในการเดินทางครับ 
+              หากน้องๆเดินทางมาจากต่างจังหวัด น้องๆสามารถระบุจุดนัดพบ ตามที่ระบุไว้ในใบสมัคร และในวันเข้าร่วมโครงการ จะมีพวกพี่ๆไปดูแลและอำนวยความสะดวกในการเดินทางครับ 
               </div>
-              <div class="who"> : A</div>
+              <div class="who">A : </div>
               </div>
               <div class="question container"  data-toggle="collapse" data-target="#ans6">
               <div class="content">
               ค่ายนี้ต้องค้างคืนไหมคะ ?
               </div>
-              <div class="who"> : Q</div>
+              <div class="who">Q : </div>
               </div>
               <div id="ans6" class="answer container collapse">
               <div class="content">
               ใช่ครับ เพื่อให้น้องๆสะดวกต่อการทำกิจกรรม พี่ๆจึงจัดให้น้องๆได้เข้าพักในหอพักนักศึกษา ซึ่งสะดวกสบายและง่ายต่อการทำกิจกรรมของน้องๆ และที่สำคัญ พี่ๆจะดูแลน้องได้ตลอด 24 ชั่วโมงตลอดโครงการ น้องๆสบายใจได้ครับ 
               </div>
-              <div class="who"> : A</div>
+              <div class="who">A : </div>
               </div>
               <div class="question container"  data-toggle="collapse" data-target="#ans7">
               <div class="content">
               เอกสารที่จะต้องใช้ในการสมัครมีอะไรบ้างครับ ?
               </div>
-              <div class="who"> : Q</div>
+              <div class="who">Q : </div>
               </div>
               <div id="ans7" class="answer container collapse">
               <div class="content">
               เอกสารที่ใช้ในการสมัครโครงการ น้องๆสามารถเข้าไปดูรายละเอียดเพิ่มเติมได้ที่หน้ากรอกข้อมูลเลยครับ
               </div>
-              <div class="who"> : A</div>
+              <div class="who">A : </div>
               </div>
               <div class="question container"  data-toggle="collapse" data-target="#ans8">
               <div class="content">
               ค่ายจัดขึ้นที่ไหนครับ ?
               </div>
-              <div class="who"> : Q</div>
+              <div class="who">Q : </div>
               </div>
               <div id="ans8" class="answer container collapse">
               <div class="content">
               ตลอดระยะเวลาของโครงการ ภายในมหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี ตลอดทั้ง 5 วันครับ
               </div>
-              <div class="who"> : A</div>
+              <div class="who">A : </div>
               </div>
               <div class="question container"  data-toggle="collapse" data-target="#ans9">
               <div class="content">
               ค่ายนี้มีค่าใช้จ่ายอะไรบ้างคะ ?
               </div>
-              <div class="who"> : Q</div>
+              <div class="who">Q : </div>
               </div>
               <div id="ans9" class="answer container collapse">
               <div class="content">
               โครงการนี้ ฟรี ! ตลอดทั้งโครงการครับ ขอเพียงน้องๆเตรียมพร้อมทั้งตัวและหัวใจ มาพบกับเพื่อนๆและพี่ๆในค่ายก็พอครับ
               </div>
-              <div class="who"> : A</div>
+              <div class="who">A : </div>
               </div>
               </div>
               </div>
@@ -350,7 +350,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="./js/wow.min.js"></script>
-  <script src="./js/smooth-scroll.min.js"></script>
+  <!-- <script src="./js/smooth-scroll.min.js"></script> -->
   <script src="./js/scrolling.js"></script>
   <script src="./js/js.js"></script>
   <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>

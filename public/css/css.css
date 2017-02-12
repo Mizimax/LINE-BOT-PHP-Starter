@@ -230,15 +230,16 @@ ul{
     word-wrap: break-word;
   }
   .content{
-    float:left;
-    width: 88%;
+    float:right;
+    text-align: left;
+    width: 90%;
     height: auto;
     word-wrap: break-word;
   }
   .who{
     float:left;
     width: auto;
-    margin-left:5px;
+    margin-left:10px;
   }
   .header{
     height: 70px;

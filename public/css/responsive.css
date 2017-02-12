@@ -20,20 +20,6 @@
       padding-top: 100px!important;
     }
   }
-@media only screen and (max-width: 930px){
-   	#menu .main li{
-   		display: none;
-   	}.mmenu{
-   		display: inline-block;
-   	}.action-button{
-   		margin: 10px !important;
-   	}.parallax{
-      position: relative;
-      bottom:0;
-      left:0;
-      width: 100%;
-    }
-}
 @media (max-width: 965px) {
   .navbar-header {
       float: none;
@@ -68,4 +54,9 @@
   .bg{
       margin-top:0!important;
     }
+}
+@media (min-width: 965px){
+  #logo{
+        width: 50%!important;
+  }
 }
