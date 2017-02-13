@@ -9,8 +9,13 @@
   <link rel="stylesheet" href="./css/css.css">
   <link rel="stylesheet" href="./css/responsive.css">
   <link rel="stylesheet" href="./css/animate.min.css">
+
 </head>
 <body style="margin:0px;" data-spy="scroll" data-target=".navbar" data-offset="50">
+<div class="loading" align="center">
+<iframe src="loading.html" frameborder="0" scrolling="no"></iframe>
+<br><div id='load' style="font-size: 30px;width: 190px" align="left">Loading</div>
+</div>
 <nav class="navbar navbar-inverse navbar-fixed-top" id="background">
   <div class="container" >
     <div class="navbar-header">
@@ -361,6 +366,42 @@
   js.src = "//connect.facebook.net/th_TH/sdk.js#xfbml=1&version=v2.8&appId=1528156984120005";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-<!--   <script src="./js/thief.js"></script> -->
+<script type="text/javascript">
+  var load;
+  load = document.getElementById('load');
+  function loading(){
+    setTimeout(function(){
+        load.appendChild(document.createTextNode(" ."));
+        setTimeout(function(){
+          load.appendChild(document.createTextNode(" ."));
+          setTimeout(function(){
+            load.appendChild(document.createTextNode(" ."));
+            setTimeout(function(){
+              load.innerHTML = 'Loading';
+            loading();
+            },550);
+        },550);
+      }, 550);
+    },550);
+  }
+    $('#page').hide();
+    loading();
+    
+  $(document).ready(function(){
+    $.ajax({
+      url  : 'index.html',
+      type : 'post',
+      data : '',
+      statusCode: {
+      200: function (response) {
+        alert('');
+         $('.loading').hide();
+          $('#page').show();
+      }
+    }
+    });
+           
+  });
+</script>
 </body>
 </html>

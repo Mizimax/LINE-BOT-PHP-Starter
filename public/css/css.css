@@ -1,6 +1,6 @@
  body,html{
       font-family: 'Mitr', sans-serif;
-      overflow: visible !important;
+      overflow: visible;
       max-width: 100%;
       overflow-x: hidden !important;
       background: #11182b; /* For browsers that do not support gradients */
@@ -297,4 +297,14 @@ ul{
   .qactive{
     background: #a22458;
     color:white;
+  }
+  .loading{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background: #11182b;
+    color:#fff;
+    transform: translate(-50%, -50%);
   }
