@@ -389,7 +389,7 @@
     
   $(document).ready(function(){
     $.ajax({
-      url  : './comcamp/index.html',
+      url  : './comcamp/',
       type : 'post',
       data : '',
       statusCode: {
