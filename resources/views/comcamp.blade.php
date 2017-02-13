@@ -96,7 +96,7 @@
           <div id="dom_overlay_container2">
           </div>
         </div> -->
-       <img src="./img/2.gif" width="80%">
+       
       </div>
     </div>
   </div>
