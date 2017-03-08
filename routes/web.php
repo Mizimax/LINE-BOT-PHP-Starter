@@ -11,14 +11,8 @@
 |
 */
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
-
-Route::get('/profile/{id}', 'ProfileController@getProfile');
-Route::get('/profiles', 'ProfileController@getAllProfile');
-Route::get('/check', function(){
-	return view('check');
-});
-Route::get('/comcamp', function(){
-	return view('comcamp');
+Route::group(['middleware'=>'cors'],function(){
+	Route::resource('product', 'ProductController');
 });
